@@ -5,17 +5,10 @@ module.exports = defineConfig({
   chainWebpack: config => {
     config.module
       .rule('images')
-      .test(/\.(ico|png|jpe?g|gif|webp)(\?.*)?$/)
-      .use('url-loader')
-      .loader('url-loader')
-      .options({
-        limit: 4096,
-        fallback: {
-          loader: 'file-loader',
-          options: {
-            name: 'img/[name].[hash:8].[ext]'
-          }
-        }
+      .test(/\.(avif|ico|png|jpe?g|gif|webp|svg)(\?.*)?$/)
+      .type('asset/resource')
+      .set('generator', {
+        filename: 'img/[name].[hash:8][ext]'
       })
   }
 })
