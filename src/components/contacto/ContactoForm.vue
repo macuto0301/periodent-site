@@ -38,7 +38,7 @@
                     <div class="social-links">
                         <a href="https://www.facebook.com/especialidadesodontologica.periodent/" target="_blank"
                             class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/periodent.od/" target="_blank" class="social-link"><i
+                        <a href="https://www.instagram.com/periodent.od/" target="_blank" class="social-link"> <i
                                 class="fab fa-instagram"></i></a>
                         <a href="https://wa.me/584121553598?text=¡Hola!%20Estoy%20interesado%20en%20agendar%20una%20cita%20en%20su%20clínica%20dental."
                             target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>

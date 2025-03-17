@@ -166,7 +166,7 @@ nav {
         left: 0;
         transform: none;
         width: 100%;
-        top: 50px;
+        top: 60px;
     }
 
     .hamburger {
