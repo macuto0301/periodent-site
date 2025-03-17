@@ -1,5 +1,14 @@
 <template>
     <div class="servicios">
+        <section class="page-header">
+
+            <div class="header-content">
+
+                <img src="@/assets/img/servicios-header.webp" alt="Servicios dentales profesionales"
+                    class="header-image">
+            </div>
+
+        </section>
         <navigation-component />
         <services-list />
         <cta-final />
@@ -25,5 +34,25 @@ export default {
 .servicios {
     min-height: 100vh;
     background-color: #f5f5f5;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header-image {
+    width: 100%;
+    height: 400px;
+    box-shadow: var(--box-shadow);
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        height: auto;
+    }
 }
 </style>

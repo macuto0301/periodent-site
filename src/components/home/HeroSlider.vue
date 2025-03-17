@@ -80,3 +80,195 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero .container {
+    height: 100%;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: var(--white);
+    max-width: 600px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 3rem 0;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-content .espacio {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.hero-content .precio {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.hero-content .condiciones {
+    list-style: none;
+}
+
+.hero-content .condiciones li {
+    font-size: 0.8rem;
+}
+
+.hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-container {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Dark overlay for better text readability */
+.slide::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.prev-slide,
+.next-slide {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.prev-slide:hover,
+.next-slide:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+
+    .slider-container {
+        height: 80vh;
+    }
+
+    .hero-content .precio {
+        text-align: center;
+    }
+
+    .hero-content {
+        top: 70%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        padding: 0rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content .precio {
+        font-size: 1rem;
+    }
+
+    .hero-content .condiciones li {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .slider-container {
+        height: 70vh;
+    }
+}
+</style>

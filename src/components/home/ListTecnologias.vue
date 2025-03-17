@@ -55,3 +55,59 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.tecnologias {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.tecnologias h2 {
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tecnologias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tecnologia {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.tecnologia:hover {
+    transform: translateY(-5px);
+}
+
+.tecnologia h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.tecnologia p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .tecnologias-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .tecnologia {
+        margin-bottom: 20px;
+    }
+}
+</style>

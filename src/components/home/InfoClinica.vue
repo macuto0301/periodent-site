@@ -26,3 +26,95 @@ export default {
     name: 'InfoClinica'
 };
 </script>
+
+<style scoped>
+.info-clinica {
+    width: 100%;
+    padding: 80px 0;
+    background-color: var(--white);
+}
+
+.info-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+
+.info-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.info-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.info-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info-text {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text h2 {
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.info-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.info-text .btn {
+    width: fit-content;
+    min-width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-image1 {
+    display: none;
+}
+
+.info-image1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .info-wrapper {
+        flex-direction: column;
+    }
+
+    .info-image {
+        display: none;
+    }
+
+    .info-image1 {
+        display: block;
+    }
+
+    .info-text {
+        padding: 20px;
+    }
+}
+</style>

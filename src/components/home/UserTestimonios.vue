@@ -173,3 +173,134 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.testimonios {
+    padding: 60px 0;
+    background: #f8f9f9;
+    overflow: hidden;
+}
+
+.testimonios h2 {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonios-wrapper {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.testimonios-slider {
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.testimonios-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonio {
+    min-width: 300px;
+    max-width: 350px;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin: 0 15px;
+    min-height: 200px;
+    flex-shrink: 0;
+}
+
+.testimonio h3 {
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.testimonio p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.source {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.rating {
+    color: #F57C00;
+    margin-bottom: 15px;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+.slider-nav:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dot.active {
+    background: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .testimonios-wrapper {
+        padding: 0 20px;
+    }
+
+    .testimonio h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .testimonio {
+        min-width: 350px;
+        padding: 15px;
+    }
+}
+</style>

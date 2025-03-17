@@ -71,7 +71,7 @@ export default {
 h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #333;
+    color: #130663;
     font-size: 2.5rem;
 }
 
