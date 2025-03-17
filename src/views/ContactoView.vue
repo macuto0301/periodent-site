@@ -1,12 +1,9 @@
 <template>
     <div class="contacto">
         <section class="page-header">
-
             <div class="header-content">
-
                 <img src="@/assets/img/contacto-header.webp" alt="Contáctanos para tu cita dental" class="header-image">
             </div>
-
         </section>
         <navigation-component />
         <ContactoForm />

@@ -6,9 +6,12 @@
                     <h3>Periodent</h3>
                     <p>Clínica dental especializada en tratamientos integrales con tecnología avanzada.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/especialidadesodontologica.periodent" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/periodent.od/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=584121553598&text=%C2%A1Hola%21+Estoy+interesado+en+agendar+una+cita+en+su+cl%C3%ADnica+dental.&type=phone_number&app_absent=0"
+                            target="_blank"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
 

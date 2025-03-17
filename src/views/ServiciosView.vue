@@ -3,7 +3,7 @@
         <section class="page-header">
 
             <div class="header-content">
-
+                <div class="overlay"></div>
                 <img src="@/assets/img/servicios-header.webp" alt="Servicios dentales profesionales"
                     class="header-image">
             </div>
@@ -41,6 +41,19 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 14, 141, 0.2);
+    z-index: 1;
 }
 
 .header-image {
@@ -49,6 +62,8 @@ export default {
     box-shadow: var(--box-shadow);
     object-fit: cover;
 }
+
+
 
 @media (max-width: 768px) {
     .header-image {

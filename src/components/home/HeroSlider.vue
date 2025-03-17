@@ -171,7 +171,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .slider-controls {
@@ -239,6 +239,10 @@ export default {
 
     .hero-content .precio {
         text-align: center;
+    }
+
+    .slide img {
+        object-position: 70% center;
     }
 
     .hero-content {

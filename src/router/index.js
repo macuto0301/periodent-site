@@ -24,6 +24,12 @@ const routes = [
         path: '/contacto',
         name: 'contacto',
         component: ContactoView
+    },
+    // Add this to your routes array
+    {
+        path: '/privacidad',
+        name: 'Privacidad',
+        component: () => import('../views/PrivacidadView.vue')
     }
 ]
 
