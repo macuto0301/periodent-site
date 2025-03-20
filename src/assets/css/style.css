@@ -18,12 +18,13 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--light-bg);
     overflow-x: hidden;
-    min-width: 350px;
+    min-width: 100vh;
 }
 
 .container {

@@ -101,28 +101,51 @@ export default {
     z-index: 2;
     color: var(--white);
     max-width: 600px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 3rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+
+    border-radius: 8px;
 }
 
 .hero-content h1 {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 0.5rem;
 }
 
 .hero-content .espacio {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .hero-content .precio {
     font-size: 4rem;
-    color: var(--primary-color);
+    color: #00e5ff;
+    font-weight: 700;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .hero-content .condiciones {
     list-style: none;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.hero-content .condiciones li {
+    font-size: 0.85rem;
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .condiciones li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00e5ff;
 }
 
 .hero-content .condiciones li {
@@ -273,6 +296,14 @@ export default {
 
     .slider-container {
         height: 70vh;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .slider-controls {
+        display: none;
     }
 }
 </style>

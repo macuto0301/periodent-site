@@ -3,7 +3,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Periodent</h3>
+                    <h3>Especialidades Odontologica Periodent</h3>
+                    <div class="footer-logo">
+                        <img src="@/assets/img/logo-periodent-vector-biscucuy-dentista.svg" alt="Periodent Logo"
+                            class="footer-img">
+                    </div>
+
+
                     <p>Clínica dental especializada en tratamientos integrales con tecnología avanzada.</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/especialidadesodontologica.periodent" target="_blank"><i
@@ -127,6 +133,19 @@ footer {
 
 .footer-links a:hover {
     color: var(--primary-color);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-img {
+    max-width: 200px;
+    height: auto;
+    align-items: left;
 }
 
 .bottom-bar {

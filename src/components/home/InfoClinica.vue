@@ -15,7 +15,8 @@
                 <p>Mantenemos la atmósfera de la primera visita durante todo el tratamiento...</p>
                 <p>Combinando las garantías de la clínica, el profesionalismo de los doctores y la tecnología
                     moderna, te damos la seguridad en el resultado...</p>
-                <a href="#" class="btn btn-primary">Solicitar cita</a>
+
+                <router-link to="/contacto" class="btn btn-primary">Solicitar cita</router-link>
             </div>
         </div>
     </section>
@@ -87,6 +88,9 @@ export default {
     min-width: 200px;
     text-align: center;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .info-image1 {
