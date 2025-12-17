@@ -214,6 +214,12 @@ export default {
     background-color: var(--light-bg);
 }
 
+@media (max-width: 768px) {
+    .precios-section {
+        padding: 40px 0;
+    }
+}
+
 .precios-section h2 {
     text-align: center;
     color: var(--accent-color);

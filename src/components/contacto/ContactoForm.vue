@@ -343,7 +343,8 @@ export default {
 
     .contacto-info,
     .contacto-form {
-        padding: 30px;
+        padding: 20px;
+        min-width: 100%;
     }
 }
 </style>

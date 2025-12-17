@@ -269,33 +269,43 @@ export default {
     }
 
     .hero-content {
-        top: 70%;
-        left: 40%;
+        top: 40%; /* Move up slightly to avoid covering center-subject */
+        left: 50%;
         transform: translate(-50%, -50%);
-        text-align: left;
-        padding: 0rem;
+        text-align: center;
+        padding: 1.5rem;
+        width: 95%;
+        background: rgba(0, 0, 0, 0.3); /* Add subtle backdrop for readability */
+        backdrop-filter: blur(2px);
+        border-radius: 12px;
     }
 
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 2.2rem; /* Larger text like example */
+        line-height: 1.2;
+        margin-bottom: 1rem;
     }
 
     .hero-content .precio {
-        font-size: 1rem;
+        font-size: 2.5rem; /* Make price pop */
+        margin: 1rem 0;
     }
 
     .hero-content .condiciones li {
-        font-size: 0.7rem;
+        font-size: 0.9rem; /* Readable prompt text */
     }
 }
 
 @media (max-width: 480px) {
     .hero {
-        height: 70vh;
+        height: auto;
+        min-height: 85vh;
+        padding-bottom: 2rem;
     }
 
     .slider-container {
-        height: 70vh;
+        height: 100%;
+        min-height: 85vh;
     }
 
 

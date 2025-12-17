@@ -23,8 +23,14 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--light-bg);
+    background-color: var(--light-bg);
     overflow-x: hidden;
-    min-width: 100vh;
+    width: 100%;
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .container {
@@ -76,11 +82,11 @@ body {
     .page-header {
         padding: 70px 0 0px;
     }
-    
+
     .page-header h1 {
         font-size: 2rem;
     }
-    
+
     body.menu-open {
         overflow: hidden;
     }
@@ -90,7 +96,7 @@ body {
     .page-header {
         padding: 70px 0 0px;
     }
-    
+
     .page-header h1 {
         font-size: 1.8rem;
     }
@@ -98,10 +104,10 @@ body {
 
 @media (max-width: 350px) {
     body {
-        min-width: 350px;
+        min-width: 320px;
     }
 
     .container {
-        min-width: 350px;
+        min-width: 320px;
     }
 }

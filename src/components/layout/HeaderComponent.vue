@@ -68,8 +68,9 @@ header {
     align-items: center;
     flex-wrap: wrap;
     transition: transform 0.3s ease;
-    height: 80px;
-    overflow: hidden;
+    min-height: 80px;
+    height: auto;
+    overflow: visible;
 }
 
 .info-superior.hidden {
@@ -87,6 +88,9 @@ header {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word; /* Ensure long words/addresses wrap */
+    flex: 1; /* Allow it to take available space */
 }
 
 .info-superior i {
@@ -133,9 +137,22 @@ header {
 }
 
 @media (max-width: 480px) {
+    .info-superior {
+        flex-direction: row; /* Keep row if possible, or very tight column */
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        min-height: 40px;
+        padding: 5px;
+    }
+
     .info-superior .direccion:first-child {
-        font-size: 0.75rem;
-        line-height: 1.3;
+        font-size: 0.7rem; /* Crisp, small font */
+        line-height: 1.2;
+        text-align: center;
+        width: auto;
+        padding: 2px 10px;
+        flex: 0 1 auto;
     }
 }
 
@@ -148,7 +165,9 @@ header {
         display: flex;
         font-size: 0.65rem;
         padding: 2px 5px;
-        min-width: 350px;
+        font-size: 0.65rem;
+        padding: 2px 5px;
+        min-width: auto;
     }
 }
 
@@ -159,7 +178,7 @@ header {
 
     .info-superior .direccion {
         display: flex;
-        font-size: 0.3rem;
+        font-size: 0.6rem;
     }
 }
 </style>

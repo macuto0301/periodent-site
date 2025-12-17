@@ -181,6 +181,13 @@ footer {
     color: var(--white);
 }
 
+@media (max-width: 991px) {
+    .footer-section {
+        width: 48%; /* 2 columns on tablet */
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
