@@ -5,7 +5,7 @@
                 <div class="footer-section">
                     <h3>Especialidades Odontologica Periodent</h3>
                     <div class="footer-logo">
-                        <img src="/img/logo-periodent-vector-biscucuy-dentista.svg" alt="Periodent - Especialidades Odontológicas en Biscucuy y Chabásquen" loading="lazy" width="180" class="footer-img" />
+                        <img src="/img/logo-periodent-vector-biscucuy-dentista.svg" alt="Periodent - Especialidades Odontológicas en Biscucuy y Chabasquén" loading="lazy" width="180" height="54" class="footer-img" />
                     </div>
 
 
@@ -27,7 +27,7 @@
                         <p><i class="fas fa-map-marker-alt"></i> {{ clinicInfo.locations.biscucuy.address }} {{ clinicInfo.locations.biscucuy.city }}</p>
                     </div>
                     <div class="ubicacion-item">
-                        <p><strong>Chabásquen:</strong></p>
+                        <p><strong>Chabasquén:</strong></p>
                         <p><i class="fas fa-map-marker-alt"></i> {{ clinicInfo.locations.chabasquen.address }} {{ clinicInfo.locations.chabasquen.city }}</p>
                     </div>
                     <p><i class="fas fa-phone"></i> <a :href="clinicInfo.phoneHref">{{ clinicInfo.phone }}</a></p>
@@ -61,7 +61,7 @@
             <div class="bottom-bar-content">
                 <p>© {{ currentYear }}. Especialidades Odontologica Periodent CA.</p>
                 <p><NuxtLink to="/privacidad">Política de privacidad</NuxtLink></p>
-                <p><a href="https://augustoaraujo.dev/">Desarrollado por Augusto Araujo</a></p>
+                <p><a href="https://compumobilechabas.com/">Desarrollado por Compu Mobile Chabas</a></p>
             </div>
         </div>
     </footer>

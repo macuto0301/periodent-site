@@ -1,4 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+
+// Inlined in <head> to avoid a render-blocking request for critical layout CSS
+const criticalCss = readFileSync(fileURLToPath(new URL('./public/style.css', import.meta.url)), 'utf-8')
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
@@ -202,7 +208,22 @@ export default defineNuxtConfig({
     headers: {
       '/_nuxt/**': {
         'Cache-Control': 'public, max-age=31536000, immutable'
+      },
+      '/img/**': {
+        'Cache-Control': 'public, max-age=31536000, immutable'
+      },
+      '/fonts/**': {
+        'Cache-Control': 'public, max-age=31536000, immutable'
+      },
+      '/*.css': {
+        'Cache-Control': 'public, max-age=604800'
       }
+    }
+  },
+  vite: {
+    build: {
+      // Avoid unnecessary legacy transpilation/polyfills for modern browsers
+      target: 'es2020'
     }
   }
 })

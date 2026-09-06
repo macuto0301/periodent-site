@@ -15,9 +15,9 @@ export const clinicInfo = {
       path: '/ubicacion/biscucuy'
     },
     chabasquen: {
-      name: 'Chabásquen',
+      name: 'Chabasquén',
       address: 'Avenida Sucre con Calle Córdoba y Arismendi, Edificio del Señor Chelopez, planta baja, local 5.',
-      city: 'Chabásquen, Portuguesa, Venezuela',
+      city: 'Chabasquén, Portuguesa, Venezuela',
       path: '/ubicacion/chabasquen'
     }
   }

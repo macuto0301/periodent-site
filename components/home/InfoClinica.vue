@@ -15,7 +15,7 @@
                 <h2>Periodent junto a ti desde la primera visita</h2>
                 <div class="info-image1">
                     <NuxtImg src="/img/dentista-trabajando.webp"
-                        alt="Atención dental profesional en Periodent Biscucuy y Chabásquen"
+                        alt="Atención dental profesional en Periodent Biscucuy y Chabasquén"
                         format="webp"
                         loading="lazy"
                         width="300"

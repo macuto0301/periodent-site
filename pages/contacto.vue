@@ -2,7 +2,7 @@
   <div class="contacto">
     <section class="page-header">
       <div class="header-content">
-        <NuxtImg src="/img/contacto-header.webp" alt="Agenda tu cita dental en Periodent Biscucuy o Chabásquen - Atención profesional" format="webp" loading="lazy" sizes="600px" class="header-image" />
+        <NuxtImg src="/img/contacto-header.webp" alt="Agenda tu cita dental en Periodent Biscucuy o Chabasquén - Atención profesional" format="webp" loading="lazy" sizes="600px" class="header-image" />
       </div>
       
     </section>

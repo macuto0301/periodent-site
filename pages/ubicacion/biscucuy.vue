@@ -106,7 +106,7 @@
         <p>Aunque estamos ubicados en Biscucuy, recibimos pacientes de toda la región:</p>
         <div class="coverage-list">
           <div class="coverage-item">Biscucuy</div>
-          <div class="coverage-item">Chabásquen</div>
+          <div class="coverage-item">Chabasquén</div>
           <div class="coverage-item">Guanare</div>
           <div class="coverage-item">Acarigua-Araure</div>
           <div class="coverage-item">Ospino</div>
@@ -187,7 +187,7 @@ useHead({
           }
         ],
         "priceRange": "$$",
-        "areaServed": ["Biscucuy", "Chabásquen", "Portuguesa", "Venezuela"],
+        "areaServed": ["Biscucuy", "Chabasquén", "Portuguesa", "Venezuela"],
         "service": [
           {
             "@type": "Service",

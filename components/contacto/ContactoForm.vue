@@ -72,7 +72,7 @@
                             <select id="sede" v-model="formulario.sede">
                                 <option value="">Selecciona una sede</option>
                                 <option value="biscucuy">Biscucuy</option>
-                                <option value="chabasquen">Chabásquen</option>
+                                <option value="chabasquen">Chabasquén</option>
                             </select>
                         </div>
 

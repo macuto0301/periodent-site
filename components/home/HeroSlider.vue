@@ -23,7 +23,7 @@
           />
           <div class="overlay"></div>
           <div class="slide-content">
-            <h1 v-if="index === 0" class="hero-title">Clínica dental en Biscucuy y Chabásquen</h1>
+            <h1 v-if="index === 0" class="hero-title">Clínica dental en Biscucuy y Chabasquén</h1>
             <h2 class="hero-service-title">{{ slide.title }}</h2>
             <p class="hero-subtitle">{{ slide.subtitle }}</p>
             
@@ -79,9 +79,9 @@ export default {
         },
         {
           image: 'slider-image3.webp',
-          alt: 'Clínicas en Biscucuy y Chabásquen - Ubicación Periodent',
+          alt: 'Clínicas en Biscucuy y Chabasquén - Ubicación Periodent',
           title: 'Ubicación',
-          subtitle: 'Clínicas en Biscucuy y Chabásquen',
+          subtitle: 'Clínicas en Biscucuy y Chabasquén',
         },
       ],
       currentSlide: 0,

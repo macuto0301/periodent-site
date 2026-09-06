@@ -5,7 +5,7 @@
             <div class="logo">
                 <NuxtLink to="/">
                     <NuxtImg src="/img/logo-periodent.webp"
-                              alt="Periodent - Clínica Dental en Biscucuy y Chabásquen, Portuguesa"
+                              alt="Periodent - Clínica Dental en Biscucuy y Chabasquén, Portuguesa"
                               format="webp"
                               loading="lazy"
                               width="210"
@@ -39,7 +39,7 @@
                     <li><NuxtLink to="/precios">Tratamientos</NuxtLink></li>
                     <li><NuxtLink to="/blog">Blog</NuxtLink></li>
                     <li><NuxtLink to="/ubicacion/biscucuy">Biscucuy</NuxtLink></li>
-                    <li><NuxtLink to="/ubicacion/chabasquen">Chabásquen</NuxtLink></li>
+                    <li><NuxtLink to="/ubicacion/chabasquen">Chabasquén</NuxtLink></li>
                     <li><NuxtLink to="/preguntas-frecuentes">FAQ</NuxtLink></li>
                     <li><NuxtLink to="/contacto">Contacto</NuxtLink></li>
                 </ul>
@@ -62,7 +62,7 @@ export default {
         };
     },
     mounted() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll, { passive: true });
         window.addEventListener('keydown', this.handleKeydown);
         this.handleScroll(); // Initial call
     },
@@ -70,6 +70,7 @@ export default {
         window.removeEventListener('scroll', this.handleScroll);
         window.removeEventListener('keydown', this.handleKeydown);
         document.body.classList.remove('menu-open');
+        if (this.scrollRaf) cancelAnimationFrame(this.scrollRaf);
     },
     methods: {
         toggleMenu() {
@@ -89,24 +90,28 @@ export default {
             document.body.classList.toggle('menu-open', this.menuActive);
         },
         handleScroll() {
-            // Increase opacity as user scrolls
-            // At 0px: opacity 0
-            // At 300px: opacity 0.95
-            const scrolled = window.scrollY;
-            const maxScroll = 300;
-            const minOpacity = 0.86;
-            const maxOpacity = 0.95;
-            
-            this.navOpacity = Math.min(
-                minOpacity + (scrolled / maxScroll) * (maxOpacity - minOpacity),
-                maxOpacity
-            );
-            
-            // Update CSS variable
-            document.documentElement.style.setProperty(
-                '--nav-opacity',
-                this.navOpacity.toString()
-            );
+            if (this.scrollRaf) return;
+            this.scrollRaf = requestAnimationFrame(() => {
+                this.scrollRaf = null;
+                // Increase opacity as user scrolls
+                // At 0px: opacity 0
+                // At 300px: opacity 0.95
+                const scrolled = window.scrollY;
+                const maxScroll = 300;
+                const minOpacity = 0.86;
+                const maxOpacity = 0.95;
+
+                this.navOpacity = Math.min(
+                    minOpacity + (scrolled / maxScroll) * (maxOpacity - minOpacity),
+                    maxOpacity
+                );
+
+                // Update CSS variable
+                document.documentElement.style.setProperty(
+                    '--nav-opacity',
+                    this.navOpacity.toString()
+                );
+            });
         }
     }
 };

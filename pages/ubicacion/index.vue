@@ -68,11 +68,11 @@
             </div>
           </div>
 
-          <!-- Chabásquen -->
+          <!-- Chabasquén -->
           <div class="ubicacion-card">
             <div class="ubicacion-card-header">
               <i class="fas fa-map-location-dot"></i>
-              <h2>Chabásquen</h2>
+              <h2>Chabasquén</h2>
             </div>
             <div class="ubicacion-card-content">
               <div class="info-item">
@@ -82,7 +82,7 @@
                   <p>Avenida Sucre con Calle Cordoba y Arismendi,<br>
                   Edificio del Señor Chelopez,<br>
                   Planta baja, local 5<br>
-                  Chabásquen, Portuguesa, Venezuela</p>
+                  Chabasquén, Portuguesa, Venezuela</p>
                 </div>
               </div>
               
@@ -118,7 +118,7 @@
               </div>
 
               <NuxtLink to="/contacto" class="btn-cita">
-                Agendar Cita en Chabásquen <i class="fas fa-arrow-right"></i>
+                Agendar Cita en Chabasquén <i class="fas fa-arrow-right"></i>
               </NuxtLink>
             </div>
           </div>
@@ -132,7 +132,7 @@
         <h2>¿Cómo Llegar?</h2>
         <div class="info-grid">
           <div class="info-box">
-            <h3>Desde Biscucuy a Chabásquen</h3>
+            <h3>Desde Biscucuy a Chabasquén</h3>
             <p>Ambas ubicaciones están a solo 15 minutos de distancia. Si no encuentras disponibilidad en una sucursal, puedes visitarnos en la otra con la misma calidad de atención.</p>
           </div>
           <div class="info-box">
@@ -170,14 +170,14 @@ import { useHead, useRequestURL, useRuntimeConfig } from '#imports'
 const { public: { siteUrl } } = useRuntimeConfig()
 
 useHead({
-  title: 'Ubicaciones Periodent | Biscucuy y Chabásquen, Portuguesa',
+  title: 'Ubicaciones Periodent | Biscucuy y Chabasquén, Portuguesa',
   meta: [
     { 
       key: 'description', 
       name: 'description', 
-      content: 'Visita nuestras clínicas dentales en Biscucuy o Chabásquen, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' 
+      content: 'Visita nuestras clínicas dentales en Biscucuy o Chabasquén, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.'
     },
-    { key: 'og:title', property: 'og:title', content: 'Ubicaciones Periodent | Biscucuy y Chabásquen' },
+    { key: 'og:title', property: 'og:title', content: 'Ubicaciones Periodent | Biscucuy y Chabasquén' },
     { key: 'og:description', property: 'og:description', content: 'Dos ubicaciones estratégicas en Portuguesa para servirte mejor.' },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
@@ -195,7 +195,7 @@ useHead({
         "telephone": "+58 (412) 155 35 98",
         "areaServed": [
           "Biscucuy",
-          "Chabásquen",
+          "Chabasquén",
           "Portuguesa",
           "Venezuela"
         ],
@@ -211,10 +211,10 @@ useHead({
           {
             "@type": "PostalAddress",
             "streetAddress": "Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5",
-            "addressLocality": "Chabásquen",
+            "addressLocality": "Chabasquén",
             "addressRegion": "Portuguesa",
             "addressCountry": "VE",
-            "name": "Periodent Chabásquen"
+            "name": "Periodent Chabasquén"
           }
         ],
         "location": [
@@ -234,11 +234,11 @@ useHead({
           },
           {
             "@type": "LocalBusiness",
-            "name": "Periodent Chabásquen",
+            "name": "Periodent Chabasquén",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5",
-              "addressLocality": "Chabásquen",
+              "addressLocality": "Chabasquén",
               "addressRegion": "Portuguesa",
               "postalCode": "",
               "addressCountry": "VE"

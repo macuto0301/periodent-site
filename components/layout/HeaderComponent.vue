@@ -29,12 +29,16 @@ export default {
             isScrolled: false,
             autoHidden: false,
             scrollThreshold: 50,
-            autoHideDelay: 4000
+            autoHideDelay: 4000,
+            isMobile: false
         };
     },
     mounted() {
-        window.addEventListener('scroll', this.handleScroll);
-        window.addEventListener('resize', this.handleScroll);
+        this.mobileQuery = window.matchMedia('(max-width: 480px)');
+        this.isMobile = this.mobileQuery.matches;
+        this.mobileQuery.addEventListener('change', this.handleMobileChange);
+        window.addEventListener('scroll', this.handleScroll, { passive: true });
+        window.addEventListener('resize', this.handleScroll, { passive: true });
         this.handleScroll(); // Initial call
         this.autoHideTimer = setTimeout(() => {
             this.autoHidden = true;
@@ -44,19 +48,28 @@ export default {
     beforeUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
         window.removeEventListener('resize', this.handleScroll);
+        this.mobileQuery?.removeEventListener('change', this.handleMobileChange);
         clearTimeout(this.autoHideTimer);
+        if (this.scrollRaf) cancelAnimationFrame(this.scrollRaf);
     },
     methods: {
-        handleScroll() {
-            this.isScrolled = window.scrollY > this.scrollThreshold;
+        handleMobileChange(event) {
+            this.isMobile = event.matches;
             this.updateOffsets();
+        },
+        handleScroll() {
+            if (this.scrollRaf) return;
+            this.scrollRaf = requestAnimationFrame(() => {
+                this.scrollRaf = null;
+                this.isScrolled = window.scrollY > this.scrollThreshold;
+                this.updateOffsets();
+            });
         },
         updateOffsets() {
             const hidden = this.isScrolled || this.autoHidden;
 
             // Update a CSS variable to coordinate with NavigationComponent
-            // Adjust offset based on screen size
-            const isMobile = window.innerWidth <= 480;
+            const isMobile = this.isMobile;
             const offset = hidden ? '0px' : (isMobile ? '45px' : '80px');
             document.documentElement.style.setProperty('--header-offset', offset);
             document.documentElement.style.setProperty(

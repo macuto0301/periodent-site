@@ -3,8 +3,8 @@
     <!-- Hero -->
     <section class="detail-hero">
       <div class="container">
-        <h1>Odontólogo en Chabásquen - Periodent</h1>
-        <p>Tu Odontólogo de Confianza en Chabásquen, Portuguesa - Especialidades Odontológicas</p>
+        <h1>Odontólogo en Chabasquén - Periodent</h1>
+        <p>Tu Odontólogo de Confianza en Chabasquén, Portuguesa - Especialidades Odontológicas</p>
       </div>
     </section>
 
@@ -21,7 +21,7 @@
                 <p><strong>Avenida Sucre con Calle Cordoba y Arismendi</strong></p>
                 <p>Edificio del Señor Chelopez</p>
                  <p>Planta baja, local 5</p>
-                <p><strong>Chabásquen, Portuguesa, Venezuela</strong></p>
+                <p><strong>Chabasquén, Portuguesa, Venezuela</strong></p>
               </div>
             </div>
 
@@ -62,7 +62,7 @@
 
           <!-- Servicios -->
           <div class="detail-services">
-            <h2>Servicios en Chabásquen</h2>
+            <h2>Servicios en Chabasquén</h2>
             <div class="services-list">
               <div class="service-item">
                 <i class="fas fa-tooth"></i>
@@ -104,9 +104,9 @@
     <section class="coverage-section">
       <div class="container">
         <h2>Atendemos a Toda Portuguesa</h2>
-        <p>Aunque estamos ubicados en Chabásquen, recibimos pacientes de toda la región:</p>
+        <p>Aunque estamos ubicados en Chabasquén, recibimos pacientes de toda la región:</p>
         <div class="coverage-list">
-          <div class="coverage-item">Chabásquen</div>
+          <div class="coverage-item">Chabasquén</div>
           <div class="coverage-item">Biscucuy</div>
           <div class="coverage-item">Guanare</div>
           <div class="coverage-item">Acarigua-Araure</div>
@@ -121,7 +121,7 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="container">
-        <h2>¿Necesitas Atención Dental en Chabásquen?</h2>
+        <h2>¿Necesitas Atención Dental en Chabasquén?</h2>
         <p>Nuestro equipo de especialistas está listo para ayudarte. Primera consulta sin costo.</p>
         <NuxtLink to="/contacto" class="btn-cta-large">
           Agendar Consulta Ahora <i class="fas fa-phone"></i>
@@ -137,23 +137,23 @@ import { useHead, useRequestURL, useRuntimeConfig } from '#imports'
 const { public: { siteUrl } } = useRuntimeConfig()
 
 useHead({
-  title: 'Dentista en Chabásquen, Portuguesa | Periodent',
+  title: 'Dentista en Chabasquén, Portuguesa | Periodent',
   meta: [
     { 
       key: 'description', 
       name: 'description', 
-      content: 'Dentista en Chabásquen, Portuguesa, Venezuela. Periodent ofrece odontología general, ortodoncia, implantes y estética dental. Av. Sucre con calle Cordoba. Tel: +58 (412) 155 35 98.' 
+      content: 'Dentista en Chabasquén, Portuguesa, Venezuela. Periodent ofrece odontología general, ortodoncia, implantes y estética dental. Av. Sucre con calle Cordoba. Tel: +58 (412) 155 35 98.'
     },
     {
       key: 'keywords',
       name: 'keywords',
-      content: 'odontólogo en chabásquen, dentista chabásquen, clínica dental chabásquen, ortodoncia chabásquen, implantes dentales chabásquen, periodent chabásquen, odontología portuguesa'
+      content: 'odontólogo en Chabasquén, dentista Chabasquén, clínica dental Chabasquén, ortodoncia Chabasquén, implantes dentales Chabasquén, periodent Chabasquén, odontología portuguesa'
     },
-    { key: 'og:title', property: 'og:title', content: 'Odontólogo en Chabásquen | Periodent Clínica Dental' },
-    { key: 'og:description', property: 'og:description', content: 'Odontólogo en Chabásquen, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
+    { key: 'og:title', property: 'og:title', content: 'Odontólogo en Chabasquén | Periodent Clínica Dental' },
+    { key: 'og:description', property: 'og:description', content: 'Odontólogo en Chabasquén, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-    { key: 'twitter:title', name: 'twitter:title', content: 'Odontólogo en Chabásquen | Periodent' },
-    { key: 'twitter:description', name: 'twitter:description', content: 'Odontólogo en Chabásquen, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
+    { key: 'twitter:title', name: 'twitter:title', content: 'Odontólogo en Chabasquén | Periodent' },
+    { key: 'twitter:description', name: 'twitter:description', content: 'Odontólogo en Chabasquén, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
   ],
   script: [
     {
@@ -161,13 +161,13 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Dentist",
-        "name": "Periodent Chabásquen",
+        "name": "Periodent Chabasquén",
         "image": `${siteUrl}/img/mujer-cruzando-dedos.avif`,
-        "description": "Clínica dental especializada en ortodoncia, implantes dentales y servicios odontológicos completos en Chabásquen, Portuguesa.",
+        "description": "Clínica dental especializada en ortodoncia, implantes dentales y servicios odontológicos completos en Chabasquén, Portuguesa.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Av Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabásquen, Portuguesa",
-          "addressLocality": "Chabásquen",
+          "streetAddress": "Av Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén, Portuguesa",
+          "addressLocality": "Chabasquén",
           "addressRegion": "Portuguesa",
           "addressCountry": "VE"
         },
@@ -188,7 +188,7 @@ useHead({
           }
         ],
         "priceRange": "$$",
-        "areaServed": ["Chabásquen", "Biscucuy", "Portuguesa", "Venezuela"],
+        "areaServed": ["Chabasquén", "Biscucuy", "Portuguesa", "Venezuela"],
         "service": [
           {
             "@type": "Service",

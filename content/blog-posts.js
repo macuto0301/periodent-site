@@ -190,23 +190,23 @@ export const blogPosts = [
   {
     id: 5,
     slug: 'clinica-dental-chabasquen-portuguesa',
-    title: 'Clínica Dental en Chabásquen, Portuguesa: Tu Sonrisa en Manos Expertas',
-    excerpt: 'Descubre por qué Periodent es la clínica odontológica de confianza en Chabásquen y toda Portuguesa. Tecnología avanzada y atención personalizada cerca de ti.',
+    title: 'Clínica Dental en Chabasquén, Portuguesa: Tu Sonrisa en Manos Expertas',
+    excerpt: 'Descubre por qué Periodent es la clínica odontológica de confianza en Chabasquén y toda Portuguesa. Tecnología avanzada y atención personalizada cerca de ti.',
     content: `
-      <h2>Tu Clínica Dental de Confianza en Chabásquen</h2>
-      <p>En <strong>Periodent</strong>, ubicados en el corazón de Chabásquen, Portuguesa, nos enorgullece ser la clínica odontológica de referencia en la región. Con años de experiencia y un equipo de especialistas altamente calificados, ofrecemos atención dental integral para toda tu familia.</p>
+      <h2>Tu Clínica Dental de Confianza en Chabasquén</h2>
+      <p>En <strong>Periodent</strong>, ubicados en el corazón de Chabasquén, Portuguesa, nos enorgullece ser la clínica odontológica de referencia en la región. Con años de experiencia y un equipo de especialistas altamente calificados, ofrecemos atención dental integral para toda tu familia.</p>
       
-      <h3>¿Por qué elegir Periodent en Chabásquen?</h3>
+      <h3>¿Por qué elegir Periodent en Chabasquén?</h3>
       <ul>
-        <li><strong>Ubicación céntrica:</strong> Nos encontramos en Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabásquen</li>
+        <li><strong>Ubicación céntrica:</strong> Nos encontramos en Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén</li>
         <li><strong>Tecnología avanzada:</strong> Contamos con equipos de última generación para diagnósticos precisos y tratamientos efectivos</li>
         <li><strong>Equipo multidisciplinario:</strong> Ortodoncistas, implantólogos, periodoncistas y odontólogos generales</li>
         <li><strong>Atención personalizada:</strong> Cada paciente recibe un plan de tratamiento adaptado a sus necesidades</li>
         <li><strong>Horarios flexibles:</strong> Facilitamos tu visita con horarios que se ajustan a tu rutina</li>
       </ul>
       
-      <h3>Servicios Dentales en Chabásquen, Portuguesa</h3>
-      <p>En nuestra clínica dental de Chabásquen ofrecemos una amplia gama de servicios:</p>
+      <h3>Servicios Dentales en Chabasquén, Portuguesa</h3>
+      <p>En nuestra clínica dental de Chabasquén ofrecemos una amplia gama de servicios:</p>
       <ul>
         <li><strong>Ortodoncia:</strong> Brackets tradicionales y sistemas invisibles</li>
         <li><strong>Implantes dentales:</strong> Soluciones permanentes para dientes perdidos</li>
@@ -217,10 +217,10 @@ export const blogPosts = [
       </ul>
       
       <h3>Sirviendo a la Comunidad de Portuguesa</h3>
-      <p>Aunque estamos ubicados en Chabásquen, atendemos pacientes de toda Portuguesa, incluyendo Biscucuy, Guanare, Acarigua y municipios cercanos. Nuestra ubicación estratégica cerca de la plaza Bolívar facilita el acceso desde cualquier punto de la región.</p>
+      <p>Aunque estamos ubicados en Chabasquén, atendemos pacientes de toda Portuguesa, incluyendo Biscucuy, Guanare, Acarigua y municipios cercanos. Nuestra ubicación estratégica cerca de la plaza Bolívar facilita el acceso desde cualquier punto de la región.</p>
       
-      <h3>Agenda tu Cita en Periodent Chabásquen</h3>
-      <p>¿Necesitas atención odontológica en Chabásquen? Nuestro equipo está listo para ayudarte. Ofrecemos:</p>
+      <h3>Agenda tu Cita en Periodent Chabasquén</h3>
+      <p>¿Necesitas atención odontológica en Chabasquén? Nuestro equipo está listo para ayudarte. Ofrecemos:</p>
       <ul>
         <li>Primera consulta de evaluación sin costo</li>
         <li>Planes de tratamiento flexibles</li>
@@ -228,28 +228,28 @@ export const blogPosts = [
         <li>Atención de emergencias dentales</li>
       </ul>
       
-      <p><strong>Visítanos en:</strong> Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabásquen-Portuguesa.</p>
+      <p><strong>Visítanos en:</strong> Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén-Portuguesa.</p>
       <p><strong>Llámanos:</strong> +58 (412) 155 35 98</p>
       
-      <p>En <strong>Periodent Chabásquen</strong>, tu sonrisa es nuestra prioridad. ¡Te esperamos!</p>
+      <p>En <strong>Periodent Chabasquén</strong>, tu sonrisa es nuestra prioridad. ¡Te esperamos!</p>
     `,
     image: '/img/clinica-dental-chabasquen-portuguesa.png',
     author: 'Equipo Periodent',
     date: '2026-01-15',
     dateFormatted: '15 de Enero, 2026',
     category: 'Clínica',
-    tags: ['Chabásquen', 'Portuguesa', 'clínica dental', 'servicios dentales', 'odontología']
+    tags: ['Chabasquén', 'Portuguesa', 'clínica dental', 'servicios dentales', 'odontología']
   },
   {
     id: 6,
     slug: 'ortodoncia-en-portuguesa-venezuela',
     title: 'Ortodoncia en Portuguesa: Mejores Opciones y Precios Accesibles',
-    excerpt: 'Buscas ortodoncia en Portuguesa? Descubre las mejores opciones de tratamiento ortodóntico en Chabásquen con precios competitivos y especialistas certificados.',
+    excerpt: 'Buscas ortodoncia en Portuguesa? Descubre las mejores opciones de tratamiento ortodóntico en Chabasquén con precios competitivos y especialistas certificados.',
     content: `
       <h2>Ortodoncia de Calidad en Portuguesa, Venezuela</h2>
-      <p>Si buscas un tratamiento de ortodoncia en Portuguesa, <strong>Periodent</strong> en Chabásquen es tu mejor opción. Contamos con ortodoncistas certificados y amplia experiencia tratando pacientes de toda la región.</p>
+      <p>Si buscas un tratamiento de ortodoncia en Portuguesa, <strong>Periodent</strong> en Chabasquén es tu mejor opción. Contamos con ortodoncistas certificados y amplia experiencia tratando pacientes de toda la región.</p>
       
-      <h3>¿Por qué hacer tu ortodoncia en Periodent Chabásquen?</h3>
+      <h3>¿Por qué hacer tu ortodoncia en Periodent Chabasquén?</h3>
       <ul>
         <li><strong>Especialistas certificados:</strong> Nuestros ortodoncistas están altamente capacitados y actualizados en las últimas técnicas</li>
         <li><strong>Tecnología 3D:</strong> Diagnóstico preciso con radiografías digitales y planificación virtual</li>
@@ -258,7 +258,7 @@ export const blogPosts = [
         <li><strong>Seguimiento personalizado:</strong> Acompañamiento durante todo tu tratamiento</li>
       </ul>
       
-      <h3>Tipos de Ortodoncia Disponibles en Chabásquen</h3>
+      <h3>Tipos de Ortodoncia Disponibles en Chabasquén</h3>
       
       <h4>Ortodoncia Tradicional con Brackets</h4>
       <p>Los brackets metálicos siguen siendo una excelente opción, especialmente para casos complejos. Son los más económicos y altamente efectivos.</p>
@@ -283,7 +283,7 @@ export const blogPosts = [
       </ol>
       
       <h3>Atendemos Pacientes de Toda Portuguesa</h3>
-      <p>Aunque nuestra clínica está en Chabásquen, recibimos pacientes de:</p>
+      <p>Aunque nuestra clínica está en Chabasquén, recibimos pacientes de:</p>
       <ul>
         <li>Biscucuy</li>
         <li>Guanare</li>
@@ -297,24 +297,24 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong> ofrecemos precios competitivos con planes de financiamiento. El costo varía según el tipo de ortodoncia y la complejidad del caso.</p>
       <p>Solicita tu evaluación gratuita y recibe un presupuesto personalizado sin compromiso.</p>
       
-      <p><strong>Agenda tu consulta de ortodoncia en Chabásquen:</strong> +58 (412) 155 35 98</p>
-      <p>Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabásquen-Portuguesa.</p>
+      <p><strong>Agenda tu consulta de ortodoncia en Chabasquén:</strong> +58 (412) 155 35 98</p>
+      <p>Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén-Portuguesa.</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
     author: 'Dra. Ortodoncia Periodent',
     date: '2026-01-13',
     dateFormatted: '13 de Enero, 2026',
     category: 'Ortodoncia',
-    tags: ['ortodoncia Portuguesa', 'brackets Chabásquen', 'ortodoncista', 'Venezuela']
+    tags: ['ortodoncia Portuguesa', 'brackets Chabasquén', 'ortodoncista', 'Venezuela']
   },
   {
     id: 7,
     slug: 'implantes-dentales-portuguesa-chabasquen',
     title: 'Implantes Dentales en Portuguesa: Recupera tu Sonrisa con Periodent',
-    excerpt: 'Los mejores implantes dentales en Portuguesa con garantía. Especialistas en implantología en Chabásquen con tecnología de vanguardia y precios justos.',
+    excerpt: 'Los mejores implantes dentales en Portuguesa con garantía. Especialistas en implantología en Chabasquén con tecnología de vanguardia y precios justos.',
     content: `
-      <h2>Implantes Dentales en Chabásquen, Portuguesa</h2>
-      <p>Perder uno o varios dientes afecta tu salud, estética y autoestima. En <strong>Periodent Chabásquen</strong>, somos especialistas en implantología dental, ofreciendo soluciones permanentes y naturales para recuperar tu sonrisa.</p>
+      <h2>Implantes Dentales en Chabasquén, Portuguesa</h2>
+      <p>Perder uno o varios dientes afecta tu salud, estética y autoestima. En <strong>Periodent Chabasquén</strong>, somos especialistas en implantología dental, ofreciendo soluciones permanentes y naturales para recuperar tu sonrisa.</p>
       
       <h3>¿Qué son los Implantes Dentales?</h3>
       <p>Un implante dental es un tornillo de titanio que se coloca en el hueso maxilar, funcionando como la raíz de un diente natural. Sobre este implante se coloca una corona que se ve y funciona exactamente como un diente real.</p>
@@ -342,7 +342,7 @@ export const blogPosts = [
       <p>Para pacientes sin dientes. Se colocan 4-6 implantes que sostienen una prótesis fija completa.</p>
       <p><strong>Técnica All-on-4:</strong> Recupera todos tus dientes con solo 4 implantes por arcada</p>
       
-      <h3>Proceso de Colocación en Periodent Chabásquen</h3>
+      <h3>Proceso de Colocación en Periodent Chabasquén</h3>
       <ol>
         <li><strong>Evaluación inicial:</strong> Examen clínico y radiografías 3D</li>
         <li><strong>Planificación digital:</strong> Diseño del tratamiento con software especializado</li>
@@ -366,7 +366,7 @@ export const blogPosts = [
       <h3>¿Por qué Pacientes de Toda Portuguesa Eligen Periodent?</h3>
       <ul>
         <li>Especialista con más de 1000 implantes colocados</li>
-        <li>Tecnología de vanguardia en Chabásquen</li>
+        <li>Tecnología de vanguardia en Chabasquén</li>
         <li>Precios competitivos con planes de pago</li>
         <li>Garantía en implantes y coronas</li>
         <li>Atención personalizada y seguimiento continuo</li>
@@ -377,11 +377,11 @@ export const blogPosts = [
       <h3>Agenda tu Evaluación de Implantes</h3>
       <p><strong>Consulta inicial sin costo.</strong> Te realizaremos un estudio completo y te presentaremos tu plan de tratamiento con presupuesto detallado.</p>
       
-      <p><strong>Periodent Chabásquen</strong><br>
+      <p><strong>Periodent Chabasquén</strong><br>
       Avenida Sucre con Calle Cordoba y Arismendi,<br>
       Edificio del Señor Chelopez<br>
       Planta baja, local 5<br>
-      Chabásquen, Portuguesa<br>
+      Chabasquén, Portuguesa<br>
       <strong>Teléfono:</strong> +58 (412) 155 35 98</p>
       
       <p>¡Recupera tu sonrisa con los mejores implantólogos de Portuguesa!</p>
@@ -391,7 +391,7 @@ export const blogPosts = [
     date: '2026-01-11',
     dateFormatted: '11 de Enero, 2026',
     category: 'Implantología',
-    tags: ['implantes dentales Portuguesa', 'implantólogo Chabásquen', 'All-on-4', 'Venezuela']
+    tags: ['implantes dentales Portuguesa', 'implantólogo Chabasquén', 'All-on-4', 'Venezuela']
   },
   {
     id: 8,
@@ -426,7 +426,7 @@ export const blogPosts = [
       <h3>Biscucuy y Alrededores: Nuestro Área de Servicio</h3>
       <p>Aunque nuestra sucursal principal está en Biscucuy, también atendemos pacientes de:</p>
       <ul>
-        <li>Chabásquen</li>
+        <li>Chabasquén</li>
         <li>Guanare</li>
         <li>Acarigua-Araure</li>
         <li>Ospino</li>

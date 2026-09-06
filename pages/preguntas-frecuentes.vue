@@ -10,7 +10,7 @@
     <div class="faq-content">
       <div class="container">
         <div class="faq-intro">
-          <p>En <strong>Periodent</strong>, sabemos que visitar al dentista puede generar dudas. Aquí respondemos las preguntas más frecuentes de nuestros pacientes en Biscucuy y Chabásquen.</p>
+          <p>En <strong>Periodent</strong>, sabemos que visitar al dentista puede generar dudas. Aquí respondemos las preguntas más frecuentes de nuestros pacientes en Biscucuy y Chabasquén.</p>
         </div>
 
         <div class="faq-list">
@@ -53,7 +53,7 @@ const activeIndex = ref(null)
 const faqs = ref([
   {
     question: "¿Cuánto cuesta una limpieza dental en Periodent?",
-    answer: "El costo de una limpieza dental profesional varía según las necesidades de cada paciente. En general, nuestras limpiezas tienen precios competitivos en Biscucuy y Chabásquen. Te recomendamos agendar una evaluación inicial donde te daremos un presupuesto personalizado."
+    answer: "El costo de una limpieza dental profesional varía según las necesidades de cada paciente. En general, nuestras limpiezas tienen precios competitivos en Biscucuy y Chabasquén. Te recomendamos agendar una evaluación inicial donde te daremos un presupuesto personalizado."
   },
   {
     question: "¿Cada cuánto tiempo debo hacerme una limpieza dental?",
@@ -89,7 +89,7 @@ const faqs = ref([
   },
   {
     question: "¿Cuál es la diferencia entre sus dos ubicaciones?",
-    answer: "Contamos con dos clínicas: una en <strong>Biscucuy, Portuguesa</strong> (Carrera 1 Bolívar, entre calle Paez y Negro Primero, Biscucuy, Portuguesa, Venezuela) y otra en <strong>Chabásquen, Portuguesa</strong> (Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Senor Chelopez, planta baja Local 5, Chabásquen, Portuguesa, Venezuela). Ambas ofrecen los mismos servicios y cuentan con equipamiento de última tecnología."
+    answer: "Contamos con dos clínicas: una en <strong>Biscucuy, Portuguesa</strong> (Carrera 1 Bolívar, entre calle Paez y Negro Primero, Biscucuy, Portuguesa, Venezuela) y otra en <strong>Chabasquén, Portuguesa</strong> (Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Senor Chelopez, planta baja Local 5, Chabasquén, Portuguesa, Venezuela). Ambas ofrecen los mismos servicios y cuentan con equipamiento de última tecnología."
   },
   {
     question: "¿Atienden niños?",
@@ -119,11 +119,11 @@ function toggleFaq(index) {
 
 // SEO
 useHead({
-  title: 'Preguntas Frecuentes | Periodent - Clínica Dental en Biscucuy y Chabásquen',
+  title: 'Preguntas Frecuentes | Periodent - Clínica Dental en Biscucuy y Chabasquén',
   meta: [
     { 
       name: 'description', 
-      content: 'Respuestas a las preguntas más frecuentes sobre servicios dentales en Periodent. Costos, citas, tratamientos y más información sobre nuestras clínicas en Biscucuy y Chabásquen, Portuguesa.' 
+      content: 'Respuestas a las preguntas más frecuentes sobre servicios dentales en Periodent. Costos, citas, tratamientos y más información sobre nuestras clínicas en Biscucuy y Chabasquén, Portuguesa.'
     },
     { property: 'og:title', content: 'Preguntas Frecuentes | Periodent' },
     { property: 'og:description', content: 'Encuentra respuestas a tus dudas sobre servicios dentales, costos, citas y tratamientos en Periodent.' },
