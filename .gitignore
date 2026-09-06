@@ -1,23 +1,32 @@
-.DS_Store
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
 node_modules
-/dist
 
+# Python virtual environment and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
 
-# local env files
-.env.local
-.env.*.local
+# Archives
+*.zip
+*.tar.gz
+*.tgz
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
+# IDE and OS
+.DS_Store
+.fleet
 .idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.vscode/
+
+# Local env files
+.env
+.env.*
+!.env.example

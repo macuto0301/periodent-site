@@ -1,0 +1,57 @@
+# Configuración para Nuxt 3 Site Generator en Namecheap
+
+# Habilitar módulo de reescritura
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # No reescribir si es un archivo o directorio real
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Reescribir a 200.html para SPA fallback
+  RewriteRule ^(.*)$ /200.html [L]
+</IfModule>
+
+# Configurar error 404 personalizado
+ErrorDocument 404 /404.html
+
+# Cache headers para archivos estáticos
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Cache de 1 año para archivos versionados
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/avif "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+  
+  # No cachear HTML (siempre lo más reciente)
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Compresión GZIP
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/svg+xml
+</IfModule>
+
+# Headers de seguridad
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# HTTPS redirect (descomenta si tu sitio está en HTTPS)
+# <IfModule mod_rewrite.c>
+#   RewriteCond %{HTTPS} off
+#   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>

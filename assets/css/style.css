@@ -1,0 +1,181 @@
+/* === CONTRASTE Y ACCESIBILIDAD WCAG === */
+.primary-btn, .btn-primary {
+    background-color: var(--primary-color) !important;
+    color: #FFFFFF !important;
+    border: 2px solid #A30449 !important;
+    font-weight: 600;
+}
+
+.animate.valor, .tecnologia {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #222222 !important;
+}
+
+.animate.valor h3, .tecnologia h3 {
+    color: #1A1A1A !important;
+    font-weight: 700;
+}
+/* === CONTRASTE WCAG MEJORADO === */
+
+/* Botón primario con mejor contraste */
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: 2px solid #A30449; /* Borde aún más oscuro para definir */
+}
+
+.btn-primary:hover {
+    background-color: #A30449; /* Rosa 40% más oscuro en hover */
+    border-color: #82033A;
+}
+
+/* Contraste en todos los textos */
+h1, h2, h3, h4, h5, h6, p, span, li {
+    color: #222222;
+}
+
+/* Especialmente para los títulos h3 */
+h3 {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+/* Footer contraste */
+footer {
+    --primary-color: #C2185B;
+    --primary-strong: #4A148C;
+    --brand-pink: #EC407A;
+    --secondary-color: #1565C0;
+    --accent-color: #311B92;
+
+footer h3, footer h4 {
+    color: #ffffff !important;
+}
+    background-color: var(--primary-color) !important;
+footer a {
+    color: #a6d4fa;
+}
+    background-color: var(--primary-color);
+footer .bottom-bar {
+    color: #d1d1d1;
+}
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hero-offset: 154px;
+    --primary-color: #C2185B;
+    --primary-strong: #4A148C;
+    --brand-pink: #EC407A;
+    --secondary-color: #1565C0;
+    --accent-color: #311B92;
+    --text-color: #333;
+    --light-bg: #f4f4f4;
+    --white: #fff;
+    --light-gray: #e3e3e3;
+    --dark-gray: #8b8a8a;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    background-color: var(--light-bg);
+    overflow-x: hidden;
+    width: 100%;
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 350px;
+}
+
+/* Utilities */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+/* Page Header (common across pages) */
+.page-header {
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 80px 0 0px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Media Queries for Global Elements */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 70px 0 0px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --hero-offset: 97px;
+    }
+
+    .page-header {
+        padding: 70px 0 0px;
+    }
+
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        min-width: 320px;
+    }
+
+    .container {
+        min-width: 320px;
+    }
+}

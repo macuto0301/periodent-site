@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <!-- FUENTES: Importamos las fuentes exactas desde Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&amp;family=Allura&amp;family=Great+Vibes&amp;display=swap');
+    </style>
+
+    <!-- 1. DEGRADADO AZUL (Trazo Izquierdo) -->
+    <!-- De Cian Claro (#26C6DA) a Azul Profundo (#0D47A1) -->
+    <linearGradient id="gradAzul" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26C6DA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0288D1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 2. DEGRADADO ROSA (Trazo Derecho) -->
+    <!-- De Fucsia (#EC407A) a Violeta (#4A148C) -->
+    <linearGradient id="gradRosa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC407A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A148C;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 3. DEGRADADO TEXTO PERIODENT -->
+    <!-- Igual que el azul pero aplicado al texto -->
+    <linearGradient id="gradTexto" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="10%" style="stop-color:#4DD0E1;stop-opacity:1" />
+      <stop offset="90%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 4. SOMBRA SUAVE (Para imitar el efecto de la imagen) -->
+    <filter id="sombra" x="-20%" y="-20%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="3" dy="3" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/> <!-- Sombra sutil -->
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" /> 
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- === ICONO (DIBUJADO A MANO ALZADA VECTORIAL) === -->
+  <g transform="translate(20, 20) scale(1.1)">
+    
+    <!-- Parte Azul (Izquierda): Forma de P gorda con gancho -->
+    <path d="M 120,40 
+             C 70,40 50,90 60,150 
+             C 70,210 110,250 140,260 
+             C 120,230 110,200 130,180 
+             C 150,160 160,130 150,90 
+             C 145,60 135,40 120,40 Z" 
+          fill="url(#gradAzul)" />
+
+    <!-- Parte Rosa (Derecha): Cuello de cisne que baja en punta -->
+    <path d="M 175,50 
+             C 220,50 260,70 250,140 
+             C 240,200 210,250 190,290 
+             C 210,240 220,200 215,160 
+             C 210,110 190,90 175,50 Z" 
+          fill="url(#gradRosa)" />
+          
+    <!-- Pequeño trazo decorativo interno en la parte azul (el "hueco" de la P) -->
+     <path d="M 110,180 Q 90,170 100,130 Q 110,110 120,130 Q 130,150 110,180 Z" fill="#1565C0" opacity="0.3"/>
+  </g>
+
+  <!-- === TEXTO SUPERIOR === -->
+  <!-- Borde blanco grueso -->
+  <text x="320" y="85" font-family="'Great Vibes', cursive" font-size="60" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round">
+    Especialidades Odontológica
+  </text>
+  <!-- Relleno Violeta Oscuro -->
+  <text x="320" y="85" font-family="'Great Vibes', cursive" font-size="60" fill="#311B92">
+    Especialidades Odontológica
+  </text>
+
+  <!-- === TEXTO PRINCIPAL: PERIODENT === -->
+  <!-- Borde blanco MUY grueso (estilo sticker) -->
+  <text x="330" y="210" font-family="'Lobster', cursive" font-size="150" fill="none" stroke="white" stroke-width="18" stroke-linejoin="round">
+    Periodent
+  </text>
+  <!-- Sombra paralela detrás del texto -->
+  <text x="333" y="213" font-family="'Lobster', cursive" font-size="150" fill="black" opacity="0.2">
+    Periodent
+  </text>
+  <!-- Relleno con Degradado -->
+  <text x="330" y="210" font-family="'Lobster', cursive" font-size="150" fill="url(#gradTexto)">
+    Periodent
+  </text>
+
+  <!-- === TEXTO PEQUEÑO: c.a === -->
+  <!-- Borde blanco -->
+  <text x="830" y="210" font-family="'Lobster', cursive" font-size="30" fill="none" stroke="white" stroke-width="4">
+    c.a
+  </text>
+  <!-- Relleno Cian -->
+  <text x="830" y="210" font-family="'Lobster', cursive" font-size="30" fill="#00BCD4">
+    c.a
+  </text>
+
+</svg>

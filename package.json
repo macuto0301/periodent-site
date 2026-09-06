@@ -1,47 +1,33 @@
 {
-  "name": "periodent-site",
-  "version": "0.1.0",
+  "name": "nuxt-site",
+  "type": "module",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare && node scripts/patch-unenv.js"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "mitt": "^3.0.1",
-    "vue": "^3.2.13",
-    "vue-router": "^4.5.0"
+    "@nuxt/image": "^2.0.0",
+    "@nuxtjs/robots": "^5.6.7",
+    "@nuxtjs/seo": "^2.0.0",
+    "@nuxtjs/sitemap": "^7.5.1",
+    "@vueup/vue-quill": "^1.2.0",
+    "nuxt": "^4.2.2",
+    "nuxt-simple-sitemap": "^4.4.1",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "file-loader": "^6.2.0",
-    "url-loader": "^4.1.1"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "@nuxt/image-edge": "^1.3.0-28493895.369b747",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/node": "^25.0.9",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.2"
+  }
 }

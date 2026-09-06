@@ -1,0 +1,29 @@
+<template>
+  <div class="home">
+    <HeroSlider />
+    <InfoClinica />
+    <NuestrosValores />
+    <ListTecnologias />
+    <CuidadoFinanzas />
+    <UserTestimonios />
+    <CtaFinal />
+  </div>
+</template>
+
+<script setup>
+useHead({
+  // SEO: titulo y descripcion principal de la home.
+  title: 'Periodent | Clínica Dental en Biscucuy y Chabásquen, Portuguesa',
+  meta: [
+    { key: 'description', name: 'description', content: 'Primera consulta gratuita. Especialistas en ortodoncia e implantes dentales en Biscucuy y Chabásquen, Portuguesa. Tecnología avanzada para tu sonrisa.' },
+    { key: 'og:title', property: 'og:title', content: 'Periodent | Clínica Dental en Biscucuy y Chabásquen, Portuguesa' },
+    { key: 'og:description', property: 'og:description', content: 'Primera consulta gratuita. Especialistas en ortodoncia e implantes dentales en Biscucuy y Chabásquen, Portuguesa. Tecnología avanzada para tu sonrisa.' },
+    { key: 'og:image', property: 'og:image', content: '/img/mujer-cruzando-dedos.avif' },
+    { key: 'og:type', property: 'og:type', content: 'website' },
+    { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+    { key: 'twitter:title', name: 'twitter:title', content: 'Periodent | Clínica Dental en Biscucuy y Chabásquen, Portuguesa' },
+    { key: 'twitter:description', name: 'twitter:description', content: 'Primera consulta gratuita. Especialistas en ortodoncia e implantes dentales en Biscucuy y Chabásquen, Portuguesa. Tecnología avanzada para tu sonrisa.' },
+    { key: 'twitter:image', name: 'twitter:image', content: '/img/mujer-cruzando-dedos.avif' }
+  ]
+})
+</script>
