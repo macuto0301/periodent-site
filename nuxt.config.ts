@@ -10,6 +10,14 @@ export default defineNuxtConfig({
       pathPrefix: false,
     }
   ],
+  alias: {
+    'unenv/runtime/mock/empty.mjs': 'unenv/dist/runtime/mock/empty.mjs',
+    'unenv/runtime/mock/noop.mjs': 'unenv/dist/runtime/mock/noop.mjs',
+    'unenv/runtime/mock/proxy.mjs': 'unenv/dist/runtime/mock/proxy.mjs',
+    'unenv/dist/runtime/runtime/mock/empty.mjs': 'unenv/dist/runtime/mock/empty.mjs',
+    'unenv/dist/runtime/runtime/mock/noop.mjs': 'unenv/dist/runtime/mock/noop.mjs',
+    'unenv/dist/runtime/runtime/mock/proxy.mjs': 'unenv/dist/runtime/mock/proxy.mjs'
+  },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image'],
   runtimeConfig: {
     jwtSecret: process.env.JWT_SECRET || 'default-secret-change-in-production',
@@ -131,6 +139,14 @@ export default defineNuxtConfig({
   nitro: {
     cloudflare: {
       nodeCompat: true
+    },
+    alias: {
+      'unenv/runtime/mock/empty.mjs': 'unenv/dist/runtime/mock/empty.mjs',
+      'unenv/runtime/mock/noop.mjs': 'unenv/dist/runtime/mock/noop.mjs',
+      'unenv/runtime/mock/proxy.mjs': 'unenv/dist/runtime/mock/proxy.mjs',
+      'unenv/dist/runtime/runtime/mock/empty.mjs': 'unenv/dist/runtime/mock/empty.mjs',
+      'unenv/dist/runtime/runtime/mock/noop.mjs': 'unenv/dist/runtime/mock/noop.mjs',
+      'unenv/dist/runtime/runtime/mock/proxy.mjs': 'unenv/dist/runtime/mock/proxy.mjs'
     },
     devProxy: {
       '/api': {
