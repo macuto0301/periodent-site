@@ -8,7 +8,7 @@
                     loading="lazy"
                     width="400"
                     height="218"
-                    sizes="400px"
+                    sizes="(max-width: 768px) 1px, 50vw"
                 />
             </div>
             <div class="info-text">
@@ -18,9 +18,9 @@
                         alt="Atención dental profesional en Periodent Biscucuy y Chabasquén"
                         format="webp"
                         loading="lazy"
-                        width="300"
-                        height="164"
-                        sizes="300px"
+                        width="640"
+                        height="360"
+                        sizes="(max-width: 768px) calc(100vw - 40px), 1px"
                     />
                 </div>
                 <p>¿Qué es importante para ti al elegir una clínica? Nuestros pacientes destacan la calidad de la
@@ -114,7 +114,8 @@ export default {
 
 .info-image1 img {
     width: 100%;
-    height: 300px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     margin: 20px 0;
 }
