@@ -1,6 +1,6 @@
 <template>
     <section class="nuestros-valores">
-        <h2>NUESTRO ENFOQUE</h2>
+        <h2>Nuestro enfoque</h2>
         <div class="container">
             <div class="valores-grid">
                 <div v-for="(valor, index) in valores" :key="index" class="valor" :class="{ 'animate': true }"
@@ -58,7 +58,9 @@ export default {
 
 .nuestros-valores h2 {
     color: var(--accent-color);
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.12;
+    font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
@@ -151,7 +153,9 @@ export default {
     align-items: center;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 700;
 }
 
 .valor img {

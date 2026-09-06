@@ -6,16 +6,20 @@
                     alt="Dentista profesional atendiendo paciente en Periodent - Clínica dental moderna en Portuguesa"
                     format="webp"
                     loading="lazy"
+                    width="400"
+                    height="218"
                     sizes="400px"
                 />
             </div>
             <div class="info-text">
-                <h2>PERIODENT JUNTO A TI DESDE LA PRIMERA VISITA</h2>
+                <h2>Periodent junto a ti desde la primera visita</h2>
                 <div class="info-image1">
                     <NuxtImg src="/img/dentista-trabajando.webp"
                         alt="Atención dental profesional en Periodent Biscucuy y Chabásquen"
                         format="webp"
                         loading="lazy"
+                        width="300"
+                        height="164"
                         sizes="300px"
                     />
                 </div>
@@ -83,7 +87,9 @@ export default {
 
 .info-text h2 {
     color: var(--accent-color);
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.12;
+    font-weight: 700;
     margin-bottom: 1.2rem;
 }
 

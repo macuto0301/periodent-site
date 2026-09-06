@@ -139,7 +139,9 @@ export default {
 .testimonios h2 {
     text-align: center;
     color: var(--accent-color);
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.12;
+    font-weight: 700;
     margin-bottom: 2rem;
 }
 
@@ -175,7 +177,9 @@ export default {
 .testimonio h3 {
     color: var(--text-color);
     margin-bottom: 15px;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    font-weight: 700;
 }
 
 .testimonio p {

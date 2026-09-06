@@ -1,6 +1,6 @@
 <template>
     <section class="tecnologias">
-        <h2>TECNOLOGÍAS AVANZADAS DE TRATAMIENTO</h2>
+        <h2>Tecnologías avanzadas de tratamiento</h2>
         <div class="container">
             <div class="tecnologias-grid">
                 <div v-for="(tecnologia, index) in tecnologias" :key="index" class="tecnologia">
@@ -65,7 +65,9 @@ export default {
 
 .tecnologias h2 {
     color: var(--accent-color);
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.12;
+    font-weight: 700;
     margin-bottom: 2rem;
 }
 
@@ -91,7 +93,9 @@ export default {
 .tecnologia h3 {
     color: var(--primary-color);
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 700;
 }
 
 .tecnologia p {

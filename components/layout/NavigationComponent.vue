@@ -123,7 +123,7 @@ nav {
     max-width: 100%;
     z-index: 99;
 
-    padding: 0.6rem 1rem;
+    padding: 0.7rem clamp(1rem, 3vw, 2rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -190,6 +190,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: clamp(0.5rem, 1.5vw, 1.5rem);
     width: 100%;
 }
 
@@ -200,13 +201,13 @@ nav {
     text-decoration: none;
     color: var(--white);
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 12px;
     flex-shrink: 0;
 }
 
 .logo img {
-    width: 170px;
-    height: 52px;
+    width: 155px;
+    height: 48px;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(49, 27, 146, 0.18));
 }
@@ -224,11 +225,11 @@ nav {
 .menu {
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 0;
+    gap: clamp(0.1rem, 0.5vw, 0.55rem);
 }
 
 .menu li {
-    margin: 0 8px;
     position: relative;
 }
 
@@ -237,9 +238,10 @@ nav {
     color: var(--accent-color);
     font-weight: 600;
     transition: all 0.3s ease;
-    padding: 8px 8px;
+    padding: 8px 6px;
     position: relative;
-    letter-spacing: 0.5px;
+    letter-spacing: 0;
+    font-size: 0.94rem;
     border-radius: 4px;
     display: inline-block;
 }

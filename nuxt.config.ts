@@ -129,10 +129,23 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'preconnect', href: 'https://cdnjs.cloudflare.com' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap' },
-        { rel: 'stylesheet', href: '/style.css' },
-        { rel: 'stylesheet', href: '/icons.css' }
+        // Loaded non-render-blocking: swaps to 'all' once fetched (font-display=swap avoids FOIT)
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap',
+          media: 'print',
+          onload: "this.media='all'"
+        },
+        // Non-critical: icon glyphs aren't needed for first paint
+        { rel: 'stylesheet', href: '/icons.css', media: 'print', onload: "this.media='all'" }
+      ],
+      noscript: [
+        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">' },
+        { innerHTML: '<link rel="stylesheet" href="/icons.css">' }
+      ],
+      style: [
+        // Critical above-the-fold CSS inlined to avoid an extra render-blocking request
+        { innerHTML: criticalCss }
       ]
     }
   },

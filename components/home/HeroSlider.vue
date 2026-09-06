@@ -171,8 +171,8 @@ export default {
 .hero {
   position: relative;
   margin-top: var(--hero-offset, 154px);
-  height: 100vh;
-  min-height: 500px;
+  height: min(760px, calc(100svh - var(--hero-offset, 154px)));
+  min-height: 520px;
   overflow: hidden;
   background: #d3d0d3;
 }
@@ -222,9 +222,10 @@ export default {
   z-index: 2;
   color: #fff;
   text-align: center;
-  width: 90%;
+  width: min(90%, 680px);
+  min-width: 0;
   max-width: 680px;
-  padding: 1.6rem 1rem;
+  padding: 1.6rem clamp(1rem, 4vw, 2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,19 +234,25 @@ export default {
   font-size: clamp(1.8rem, 3vw, 3rem);
   font-weight: 800;
   margin-bottom: 0.4rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   text-shadow: 2px 2px 8px #000a;
 }
 
 .hero-service-title {
-  font-size: 2.4rem;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
   font-weight: 800;
   margin-bottom: 0.6rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   text-shadow: 2px 2px 8px #000a;
 }
 
 .hero-subtitle {
   font-size: 1.1rem;
   margin-bottom: 1.4rem;
+  max-width: 36rem;
+  overflow-wrap: anywhere;
   text-shadow: 1px 1px 6px #000a;
 }
 
@@ -253,8 +260,15 @@ export default {
   margin-top: 1rem;
   font-size: 1rem;
   line-height: 1.5;
+  max-width: 34rem;
+  overflow-wrap: anywhere;
   text-shadow: 1px 1px 6px #000a;
   margin-bottom: 0.6rem;
+}
+.slide-content :deep(.primary-btn) {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
 }
 .cta-btn {
   background: var(--brand-pink, #EC407A);
@@ -354,12 +368,22 @@ export default {
 }
 
 @media (max-width: 600px) {
-  .hero { height: 60vh; min-height: 350px; }
-  .slide-content { padding: 1rem 0.5rem; }
-  .hero-title { font-size: 1.35rem; }
-  .hero-service-title { font-size: 1.3rem; }
+  .hero {
+    height: clamp(480px, calc(100svh - var(--hero-offset, 52px)), 640px);
+    min-height: 480px;
+  }
+  .slide img { object-position: 58% center; }
+  .slide-content {
+    width: calc(100% - 2rem);
+    padding: 1rem 0.25rem;
+  }
+  .hero-title { font-size: clamp(1.35rem, 6vw, 1.8rem); }
+  .hero-service-title { font-size: clamp(1.4rem, 7vw, 2rem); }
   .hero-subtitle { font-size: 0.95rem; }
   .hero-local-lead { font-size: 0.85rem; }
-  .cta-btn { font-size: 1rem; padding: 0.7rem 1.5rem; }
+  .slide-content :deep(.primary-btn) {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+  }
 }
 </style>

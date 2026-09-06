@@ -2,7 +2,7 @@
     <section class="cuidado-finanzas">
         <div class="cuidado-finanzas-bg"></div>
         <div class="container">
-            <h2>CUIDAMOS TUS RECURSOS <br> Y TU TIEMPO</h2>
+            <h2>Cuidamos tus recursos<br> y tu tiempo</h2>
             <div class="beneficios">
                 <div v-for="(beneficio, index) in beneficios" :key="index" class="beneficio">
                     <i class="fas fa-check-circle"></i>
@@ -61,7 +61,9 @@ export default {
 .cuidado-finanzas h2 {
     flex: 0 0 60%;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    line-height: 1.05;
+    font-weight: 800;
     margin-bottom: 1rem;
 }
 

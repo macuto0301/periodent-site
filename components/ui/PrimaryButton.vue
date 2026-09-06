@@ -37,7 +37,7 @@ defineProps({
     background: var(--primary-color);
   color: var(--white);
   font-weight: 700;
-  padding: 0.9rem 2.2rem;
+  padding: 0.85rem 1.8rem;
   border-radius: 10px;
   text-decoration: none;
   font-size: 1.1rem;
@@ -49,6 +49,8 @@ defineProps({
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+  text-align: center;
 }
 .primary-btn:hover {
   background: var(--primary-strong, #4A148C);

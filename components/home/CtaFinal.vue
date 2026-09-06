@@ -10,6 +10,8 @@
                     alt="Sonrisa perfecta y dientes blancos - Resultados de tratamiento dental en Periodent"
                     format="webp"
                     loading="lazy"
+                    width="350"
+                    height="245"
                     sizes="350px"
                 />
             </div>
@@ -44,7 +46,9 @@ export default {
 }
 
 .cta-text h2 {
-    font-size: 2rem;
+    font-size: clamp(1.9rem, 3vw, 2.8rem);
+    line-height: 1.12;
+    font-weight: 700;
     margin-bottom: 40px;
     max-width: 500px;
 }
