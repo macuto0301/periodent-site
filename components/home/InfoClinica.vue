@@ -8,19 +8,19 @@
                     loading="lazy"
                     width="400"
                     height="218"
-                    sizes="(max-width: 768px) 1px, 50vw"
+                    sizes="(max-width: 768px) calc(100vw - 40px), 50vw"
                 />
             </div>
             <div class="info-text">
                 <h2>Periodent junto a ti desde la primera visita</h2>
                 <div class="info-image1">
-                    <NuxtImg src="/img/dentista-trabajando.webp"
+                    <NuxtImg src="/img/dentista-trabajando-mobile.webp"
                         alt="Atención dental profesional en Periodent Biscucuy y Chabasquén"
                         format="webp"
                         loading="lazy"
                         width="640"
                         height="360"
-                        sizes="(max-width: 768px) calc(100vw - 40px), 1px"
+                        sizes="(max-width: 768px) calc(100vw - 40px), 50vw"
                     />
                 </div>
                 <p>¿Qué es importante para ti al elegir una clínica? Nuestros pacientes destacan la calidad de la
