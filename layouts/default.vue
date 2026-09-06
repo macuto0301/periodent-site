@@ -2,7 +2,7 @@
   <div>
     <HeaderComponent />
     <NavigationComponent />
-    <NuxtPage />
+    <slot />
     <FooterComponent />
   </div>
 </template>
