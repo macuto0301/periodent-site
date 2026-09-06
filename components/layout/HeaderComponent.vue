@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container">
-            <div class="info-superior" :class="{ 'hidden': isScrolled }">
+            <div class="info-superior" :class="{ 'hidden': isScrolled || autoHidden }">
                 <div class="direccion">
                     <i class="fas fa-map-marker-alt"></i>&nbsp;{{ clinicInfo.locations.biscucuy.address }}
                     {{ clinicInfo.locations.biscucuy.city }}
@@ -27,31 +27,41 @@ export default {
         return {
             clinicInfo,
             isScrolled: false,
-            scrollThreshold: 50
+            autoHidden: false,
+            scrollThreshold: 50,
+            autoHideDelay: 4000
         };
     },
     mounted() {
         window.addEventListener('scroll', this.handleScroll);
         window.addEventListener('resize', this.handleScroll);
         this.handleScroll(); // Initial call
+        this.autoHideTimer = setTimeout(() => {
+            this.autoHidden = true;
+            this.updateOffsets();
+        }, this.autoHideDelay);
     },
     beforeUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
         window.removeEventListener('resize', this.handleScroll);
+        clearTimeout(this.autoHideTimer);
     },
     methods: {
         handleScroll() {
-            const scrolled = window.scrollY > this.scrollThreshold;
-            this.isScrolled = scrolled;
+            this.isScrolled = window.scrollY > this.scrollThreshold;
+            this.updateOffsets();
+        },
+        updateOffsets() {
+            const hidden = this.isScrolled || this.autoHidden;
 
             // Update a CSS variable to coordinate with NavigationComponent
             // Adjust offset based on screen size
             const isMobile = window.innerWidth <= 480;
-            const offset = scrolled ? '0px' : (isMobile ? '45px' : '80px');
+            const offset = hidden ? '0px' : (isMobile ? '45px' : '80px');
             document.documentElement.style.setProperty('--header-offset', offset);
             document.documentElement.style.setProperty(
                 '--hero-offset',
-                scrolled ? (isMobile ? '52px' : '74px') : (isMobile ? '97px' : '154px')
+                hidden ? (isMobile ? '52px' : '74px') : (isMobile ? '97px' : '154px')
             );
         }
     }
