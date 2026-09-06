@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-site",
+  "name": "periodent-site",
   "type": "module",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare && node scripts/patch-unenv.js"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxt/image": "^2.0.0",
