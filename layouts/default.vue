@@ -3,7 +3,7 @@
     <HeaderComponent />
     <NavigationComponent />
     <slot />
-    <FooterComponent />
+    <LazyFooterComponent hydrate-on-visible />
   </div>
 </template>
 
