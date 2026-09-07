@@ -2,11 +2,11 @@
   <div class="home">
     <HeroSlider />
     <InfoClinica />
-    <NuestrosValores />
-    <ListTecnologias />
-    <CuidadoFinanzas />
-    <UserTestimonios />
-    <CtaFinal />
+    <LazyNuestrosValores hydrate-on-visible />
+    <LazyListTecnologias hydrate-on-visible />
+    <LazyCuidadoFinanzas hydrate-on-visible />
+    <LazyUserTestimonios hydrate-on-visible />
+    <LazyCtaFinal hydrate-on-visible />
   </div>
 </template>
 

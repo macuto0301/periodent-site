@@ -103,7 +103,7 @@ footer {
 }
 
 .footer-section h3 {
-    color: var(--primary-color);
+    color: var(--white);
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -127,7 +127,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: var(--primary-color);
+    color: #ffd6e4;
 }
 
 .footer-links {
@@ -146,7 +146,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: var(--primary-color);
+    color: #ffd6e4;
 }
 
 .footer-logo {
@@ -173,7 +173,7 @@ footer {
 }
 
 .footer-section p a {
-    color: var(--primary-color);
+    color: #ffd6e4;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -225,7 +225,7 @@ footer {
 }
 
 .bottom-bar a {
-    color: var(--primary-color);
+    color: #ffd6e4;
     text-decoration: none;
     transition: color 0.3s ease;
 }
