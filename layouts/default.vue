@@ -8,10 +8,25 @@
 </template>
 
 <script setup>
-import { useHead } from '#imports'
+import { computed } from 'vue'
+import { useHead, useRoute, useRuntimeConfig } from '#imports'
 import { clinicInfo } from '@/data/clinic-info'
 
+const route = useRoute()
+const { public: { siteUrl } } = useRuntimeConfig()
+// Self-referencing canonical (no trailing slash) so Google always finds a declared canonical per page.
+const canonicalUrl = computed(() => {
+  const path = route.path === '/' ? '' : route.path.replace(/\/+$/, '')
+  return `${siteUrl}${path}`
+})
+
 useHead({
+  link: [
+    { rel: 'canonical', href: canonicalUrl }
+  ],
+  meta: [
+    { key: 'og:url', property: 'og:url', content: canonicalUrl }
+  ],
   script: [
     {
       type: 'application/ld+json',

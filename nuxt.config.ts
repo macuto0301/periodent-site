@@ -183,6 +183,9 @@ export default defineNuxtConfig({
     preset: process.env.NITRO_PRESET || 'cloudflare_pages',
     prerender: {
       crawlLinks: true,
+      // Emit flat `route.html` instead of `route/index.html` so Cloudflare Pages
+      // doesn't 308-redirect `/blog/x` -> `/blog/x/`, causing canonical/trailing-slash duplicates.
+      autoSubfolderIndex: false,
       routes: [
         '/', '/servicios', '/precios', '/contacto', '/sobre-nosotros', '/privacidad', '/preguntas-frecuentes',
         '/blog',

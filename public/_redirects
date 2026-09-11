@@ -1,0 +1,4 @@
+# Canonicalize host: www must never serve content directly, only redirect to the apex domain.
+# Requires www.periodent.com.ve to be attached as a custom domain on this same Cloudflare Pages project.
+https://www.periodent.com.ve/*  https://periodent.com.ve/:splat  301!
+http://www.periodent.com.ve/*   https://periodent.com.ve/:splat  301!
