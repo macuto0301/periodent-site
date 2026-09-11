@@ -1074,6 +1074,148 @@ export const blogPosts = [
     dateFormatted: '5 de Marzo, 2026',
     category: 'Ortodoncia',
     tags: ['ortodoncia', 'retenedores dentales', 'post-ortodoncia', 'retenedor fijo', 'retenedor essix']
+  },
+  {
+    id: 21,
+    slug: 'como-elegir-dentista-en-biscucuy',
+    title: 'Cómo elegir un dentista en Biscucuy: guía para tu primera consulta',
+    excerpt: 'Qué revisar antes de elegir un dentista en Biscucuy: ubicación, servicios, evaluación inicial, comunicación y preguntas importantes.',
+    content: `
+      <h2>Encontrar un dentista en Biscucuy</h2>
+      <p>Elegir una clínica dental no debería depender únicamente de la cercanía o del precio. Una primera consulta es una oportunidad para conocer cómo se evaluará tu caso, qué alternativas existen y qué información necesitas antes de decidir un tratamiento.</p>
+
+      <h3>1. Comprueba la ubicación y los canales de contacto</h3>
+      <p>Una clínica cercana facilita las revisiones, especialmente cuando un tratamiento requiere varias visitas. Antes de acudir, confirma la dirección, el horario, el teléfono y la forma de solicitar una cita.</p>
+
+      <h3>2. Pregunta qué incluye la evaluación</h3>
+      <p>La evaluación puede variar según el motivo de consulta. Pregunta si incluye revisión clínica, fotografías, radiografías u otros estudios, y si esos procedimientos tienen un costo adicional. El diagnóstico debe realizarlo un profesional después de valorar tu situación.</p>
+
+      <h3>3. Solicita una explicación clara</h3>
+      <p>Un buen proceso de atención debe permitirte entender el problema, las alternativas disponibles, la duración aproximada, los cuidados y el presupuesto. También tienes derecho a preguntar qué riesgos y limitaciones tiene cada opción.</p>
+
+      <h3>4. Lleva información útil a la cita</h3>
+      <ul>
+        <li>Lista de medicamentos que utilizas.</li>
+        <li>Antecedentes de alergias o enfermedades importantes.</li>
+        <li>Radiografías recientes, si las tienes.</li>
+        <li>Una lista de tus dudas y molestias.</li>
+      </ul>
+
+      <h3>Atención dental en Biscucuy</h3>
+      <p>Periodent cuenta con una sede en Biscucuy, en la Carrera 1 Bolívar, entre calle Páez y Negro Primero, al lado de la antigua Casa Blanca. Puedes revisar la información de la <a href="/ubicacion/biscucuy">sede de Biscucuy</a> o <a href="/contacto">solicitar información</a> antes de acudir.</p>
+
+      <p>Este artículo es informativo. La recomendación de un tratamiento depende de la evaluación clínica individual.</p>
+    `,
+    image: '/img/clinica-dental-biscucuy-portuguesa.avif',
+    author: 'Equipo editorial de Periodent',
+    date: '2026-09-08',
+    dateFormatted: '8 de Septiembre, 2026',
+    category: 'Clínica',
+    tags: ['dentista en Biscucuy', 'clínica dental Biscucuy', 'primera consulta', 'salud bucal']
+  },
+  {
+    id: 22,
+    slug: 'como-prepararse-para-cita-dental-en-chabasquen',
+    title: 'Cómo prepararte para una cita dental en Chabasquén',
+    excerpt: 'Consejos prácticos para preparar tu primera cita dental en Chabasquén, organizar tus antecedentes y aprovechar mejor la evaluación.',
+    content: `
+      <h2>Antes de tu cita dental en Chabasquén</h2>
+      <p>Prepararte con anticipación puede ayudarte a explicar mejor tus síntomas y a aprovechar el tiempo de la consulta. No necesitas hacer nada complicado: basta con reunir información y anotar tus preguntas.</p>
+
+      <h3>Qué información conviene llevar</h3>
+      <ul>
+        <li>Motivo principal de la consulta y desde cuándo comenzó.</li>
+        <li>Medicamentos, alergias y antecedentes médicos relevantes.</li>
+        <li>Tratamientos dentales anteriores y radiografías disponibles.</li>
+        <li>Datos de contacto para recibir indicaciones o confirmar controles.</li>
+      </ul>
+
+      <h3>Preguntas que puedes hacer</h3>
+      <p>Es normal tener dudas sobre un diagnóstico o tratamiento. Puedes preguntar cuáles son las alternativas, cuánto tiempo podría durar el proceso, qué cuidados requiere, qué controles serán necesarios y cómo se calcula el presupuesto.</p>
+
+      <h3>Si tienes ansiedad o miedo al dentista</h3>
+      <p>Informa al equipo antes de comenzar. Explicar tus preocupaciones permite organizar la consulta paso a paso y acordar pausas o señales de comunicación. No ocultes información importante por vergüenza: ayuda a que la atención sea más segura.</p>
+
+      <h3>Dónde solicitar atención odontológica en Chabasquén</h3>
+      <p>Periodent atiende en la Avenida Sucre con calle Córdoba y Arismendi, edificio del Señor Chelopez, planta baja, local 5, Chabasquén, Portuguesa. Consulta la página de <a href="/ubicacion/chabasquen">ubicación y horarios en Chabasquén</a> o comunícate mediante la <a href="/contacto">página de contacto</a>.</p>
+
+      <p>La información de este artículo es educativa y no reemplaza una valoración profesional.</p>
+    `,
+    image: '/img/clinica-dental-chabasquen-portuguesa.avif',
+    author: 'Equipo editorial de Periodent',
+    date: '2026-09-07',
+    dateFormatted: '7 de Septiembre, 2026',
+    category: 'Clínica',
+    tags: ['dentista en Chabasquén', 'cita dental Chabasquén', 'clínica dental', 'Portuguesa']
+  },
+  {
+    id: 23,
+    slug: 'que-hacer-ante-una-urgencia-dental-en-portuguesa',
+    title: 'Qué hacer ante una urgencia dental en Biscucuy o Chabasquén',
+    excerpt: 'Orientación general ante dolor intenso, golpes, sangrado o una pieza dental dañada mientras consigues atención odontológica.',
+    content: `
+      <h2>Identifica una posible urgencia dental</h2>
+      <p>Un dolor intenso, una inflamación que aumenta, un golpe en la boca, sangrado persistente o una pieza dental fracturada requieren atención profesional. La urgencia puede tener causas distintas y no es posible determinarla solo por internet.</p>
+
+      <h3>Qué puedes hacer mientras solicitas atención</h3>
+      <ul>
+        <li>Enjuaga suavemente la boca con agua si existe suciedad o restos.</li>
+        <li>Aplica frío externo protegido con una tela si hay inflamación por un golpe.</li>
+        <li>Si se desprendió una pieza, guárdala sin limpiarla con productos químicos y solicita orientación.</li>
+        <li>Evita colocar aspirina, alcohol, sustancias irritantes o remedios caseros directamente sobre la encía.</li>
+        <li>No tomes antibióticos por cuenta propia.</li>
+      </ul>
+
+      <h3>Cuándo acudir a un servicio de emergencia</h3>
+      <p>Busca atención inmediata si tienes dificultad para respirar o tragar, inflamación que compromete la cara o el cuello, sangrado que no se detiene, fiebre alta, pérdida de conciencia o un traumatismo importante.</p>
+
+      <h3>Atención dental en Portuguesa</h3>
+      <p>Si la situación no presenta los signos de alarma anteriores, puedes comunicarte con una clínica dental de Biscucuy o Chabasquén para conocer la disponibilidad de evaluación. Periodent publica sus <a href="/ubicacion">ubicaciones y horarios</a> y atiende solicitudes mediante <a href="/contacto">contacto directo</a>.</p>
+
+      <p>Este contenido ofrece orientación general y no sustituye la valoración de un odontólogo ni la atención de emergencias.</p>
+    `,
+    image: '/img/dentista-trabajando.webp',
+    author: 'Equipo editorial de Periodent',
+    date: '2026-09-06',
+    dateFormatted: '6 de Septiembre, 2026',
+    category: 'Urgencias dentales',
+    tags: ['urgencia dental', 'dentista Portuguesa', 'dolor de muela', 'Biscucuy', 'Chabasquén']
+  },
+  {
+    id: 24,
+    slug: 'cada-cuanto-hacer-limpieza-dental-en-portuguesa',
+    title: '¿Cada cuánto hacer una limpieza dental en Portuguesa?',
+    excerpt: 'Conoce qué factores influyen en la frecuencia de una limpieza dental y cuándo conviene consultar a un odontólogo en Portuguesa.',
+    content: `
+      <h2>La frecuencia de una limpieza dental depende de cada persona</h2>
+      <p>La limpieza dental profesional ayuda a retirar acumulaciones que no siempre se eliminan con el cepillado. La frecuencia adecuada depende de la higiene diaria, la salud de las encías, el consumo de tabaco, algunas enfermedades y la tendencia a acumular sarro.</p>
+
+      <h3>Orientación general</h3>
+      <p>Muchas personas reciben una recomendación de control periódico, pero no existe un intervalo único para todos. Un paciente con inflamación de encías o antecedentes de enfermedad periodontal puede necesitar revisiones más frecuentes que alguien sin esos factores.</p>
+
+      <h3>Señales para pedir una evaluación</h3>
+      <ul>
+        <li>Sangrado al cepillarte o usar hilo dental.</li>
+        <li>Mal aliento que persiste pese a la higiene.</li>
+        <li>Sensibilidad, dolor o cambios en una pieza dental.</li>
+        <li>Sarro visible o manchas que no desaparecen con el cepillado.</li>
+        <li>Encías inflamadas, retraídas o con cambios de color.</li>
+      </ul>
+
+      <h3>Cómo es una consulta de limpieza dental</h3>
+      <p>El profesional revisa el estado de la boca, identifica depósitos de placa o sarro y determina qué procedimiento es apropiado. Después puede recomendar cambios de higiene y una fecha de control adaptada a tus necesidades.</p>
+
+      <h3>Limpieza dental en Biscucuy y Chabasquén</h3>
+      <p>Periodent ofrece información sobre sus servicios de <a href="/servicios">atención odontológica</a> y sus sedes en Portuguesa. Puedes <a href="/contacto">solicitar una cita</a> para conocer qué frecuencia resulta adecuada en tu caso.</p>
+
+      <p>La recomendación final debe realizarla un profesional después de una evaluación clínica.</p>
+    `,
+    image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
+    author: 'Equipo editorial de Periodent',
+    date: '2026-09-05',
+    dateFormatted: '5 de Septiembre, 2026',
+    category: 'Prevención',
+    tags: ['limpieza dental Portuguesa', 'limpieza dental Biscucuy', 'salud bucal', 'prevención']
   }
 ]
 

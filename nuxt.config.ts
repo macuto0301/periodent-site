@@ -93,6 +93,10 @@ export default defineNuxtConfig({
         { loc: '/blog/sensibilidad-dental-causas-y-tratamiento', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.75 },
         { loc: '/blog/halitosis-mal-aliento-causas-soluciones', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.75 },
         { loc: '/blog/cuidados-post-ortodoncia-importancia-retenedores', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.75 },
+        { loc: '/blog/como-elegir-dentista-en-biscucuy', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.8 },
+        { loc: '/blog/como-prepararse-para-cita-dental-en-chabasquen', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.8 },
+        { loc: '/blog/que-hacer-ante-una-urgencia-dental-en-portuguesa', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.8 },
+        { loc: '/blog/cada-cuanto-hacer-limpieza-dental-en-portuguesa', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.8 },
         { loc: '/privacidad', lastmod: new Date().toISOString(), changefreq: 'yearly', priority: 0.3 }
       ]
     }
@@ -202,6 +206,10 @@ export default defineNuxtConfig({
         '/blog/sensibilidad-dental-causas-y-tratamiento',
         '/blog/halitosis-mal-aliento-causas-soluciones',
         '/blog/cuidados-post-ortodoncia-importancia-retenedores',
+        '/blog/como-elegir-dentista-en-biscucuy',
+        '/blog/como-prepararse-para-cita-dental-en-chabasquen',
+        '/blog/que-hacer-ante-una-urgencia-dental-en-portuguesa',
+        '/blog/cada-cuanto-hacer-limpieza-dental-en-portuguesa',
         '/ubicacion',
         '/ubicacion/biscucuy',
         '/ubicacion/chabasquen',
