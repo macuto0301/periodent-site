@@ -99,6 +99,11 @@
                                 rows="4"></textarea>
                         </div>
 
+                        <div class="form-trap" aria-hidden="true">
+                            <label for="website">Sitio web</label>
+                            <input id="website" v-model="formulario.website" type="text" tabindex="-1" autocomplete="off">
+                        </div>
+
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="terminos" v-model="formulario.terminos" required>
                             <label for="terminos">Acepto la <NuxtLink to="/privacidad">política de privacidad</NuxtLink> y el tratamiento de mis datos personales para responder esta solicitud.</label>
@@ -143,6 +148,7 @@ export default {
                 sede: '',
                 servicio: '',
                 mensaje: '',
+                website: '',
                 terminos: false
             },
             enviando: false,
@@ -166,15 +172,15 @@ export default {
     },
     methods: {
         async enviarFormulario() {
+            if (this.formulario.website) return;
+
             this.enviando = true;
             this.mensajeExito = '';
             this.mensajeError = '';
 
             try {
-                // Determinar la URL de la API según el entorno
-                const apiUrl = process.env.NODE_ENV === 'production'
-                    ? 'https://periodent.com.ve/api/contacto.php'
-                    : 'http://localhost/periodent-site/api/contacto.php';
+                const apiBaseUrl = (this.$config.public.apiUrl || 'https://periodent.com.ve/api').replace(/\/+$/, '');
+                const apiUrl = `${apiBaseUrl}/contacto.php`;
 
                 // Enviar petición a la API
                 const response = await fetch(apiUrl, {
@@ -200,6 +206,7 @@ export default {
                             sede: '',
                             servicio: '',
                             mensaje: '',
+                            website: '',
                             terminos: false
                         };
                     }, 2000);
@@ -337,6 +344,15 @@ h1 {
 
 .form-group {
     margin-bottom: 20px;
+}
+
+.form-trap {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
 }
 
 .form-group label {

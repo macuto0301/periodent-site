@@ -67,6 +67,7 @@ export default defineNuxtConfig({
         { loc: '/servicios', lastmod: new Date().toISOString(), changefreq: 'weekly', priority: 0.9 },
         { loc: '/precios', lastmod: new Date().toISOString(), changefreq: 'weekly', priority: 0.9 },
         { loc: '/contacto', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.8 },
+        { loc: '/sobre-nosotros', lastmod: new Date().toISOString(), changefreq: 'yearly', priority: 0.8 },
         { loc: '/preguntas-frecuentes', lastmod: new Date().toISOString(), changefreq: 'weekly', priority: 0.8 },
         { loc: '/ubicacion', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.9 },
         { loc: '/ubicacion/biscucuy', lastmod: new Date().toISOString(), changefreq: 'monthly', priority: 0.9 },
@@ -106,6 +107,7 @@ export default defineNuxtConfig({
     '/servicios': { static: true },
     '/precios': { static: true },
     '/contacto': { static: true },
+    '/sobre-nosotros': { static: true },
     '/privacidad': { static: true },
     '/preguntas-frecuentes': { static: true },
     '/blog': { static: true },
@@ -178,7 +180,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
-        '/', '/servicios', '/precios', '/contacto', '/privacidad', '/preguntas-frecuentes',
+        '/', '/servicios', '/precios', '/contacto', '/sobre-nosotros', '/privacidad', '/preguntas-frecuentes',
         '/blog',
         '/blog/importancia-salud-bucal',
         '/blog/ortodoncia-invisible-vs-tradicional',

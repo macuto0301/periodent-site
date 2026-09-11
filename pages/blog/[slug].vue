@@ -13,6 +13,7 @@
             <span class="post-date">
               <i class="far fa-calendar-alt"></i> {{ post.dateFormatted }}
             </span>
+            <span class="post-review">Contenido editorial de Periodent</span>
           </div>
         </div>
       </div>

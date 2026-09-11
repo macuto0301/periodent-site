@@ -48,6 +48,7 @@
                         <li><NuxtLink to="/">Inicio</NuxtLink></li>
                         <li><NuxtLink to="/servicios">Servicios</NuxtLink></li>
                         <li><NuxtLink to="/precios">Precios</NuxtLink></li>
+                        <li><NuxtLink to="/sobre-nosotros">Sobre nosotros</NuxtLink></li>
                         <li><NuxtLink to="/blog">Blog</NuxtLink></li>
                         <li><NuxtLink to="/preguntas-frecuentes">Preguntas Frecuentes</NuxtLink></li>
                         <li><NuxtLink to="/ubicacion">Ubicaciones</NuxtLink></li>

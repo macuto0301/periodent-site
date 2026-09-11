@@ -38,6 +38,7 @@
                     <li><NuxtLink to="/">Inicio</NuxtLink></li>
                     <li><NuxtLink to="/servicios">Servicios</NuxtLink></li>
                     <li><NuxtLink to="/precios">Tratamientos</NuxtLink></li>
+                    <li><NuxtLink to="/sobre-nosotros">Sobre nosotros</NuxtLink></li>
                     <li><NuxtLink to="/blog">Blog</NuxtLink></li>
                     <li><NuxtLink to="/ubicacion/biscucuy">Biscucuy</NuxtLink></li>
                     <li><NuxtLink to="/ubicacion/chabasquen">Chabasquén</NuxtLink></li>
