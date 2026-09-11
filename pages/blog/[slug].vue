@@ -39,6 +39,7 @@
       <!-- Contenido -->
       <div class="post-content-wrapper">
         <div class="container">
+          <p class="medical-disclaimer">Contenido informativo y educativo. No sustituye una evaluación, diagnóstico ni indicación de un profesional de la salud. Cada tratamiento depende de la valoración clínica individual.</p>
           <div class="post-content" v-html="post.content"></div>
           
           <!-- Tags -->
@@ -235,6 +236,17 @@ watchEffect(() => {
 
 .post-content-wrapper {
   padding: 80px 0;
+}
+
+.medical-disclaimer {
+  max-width: 800px;
+  margin: 0 auto 24px;
+  padding: 14px 18px;
+  border-left: 4px solid var(--primary-color);
+  background: rgba(236, 64, 122, 0.08);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .post-content {

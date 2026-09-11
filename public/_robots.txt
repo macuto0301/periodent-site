@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.periodent.com.ve/sitemap.xml
+Disallow: /admin/
+Disallow: /api/
+Sitemap: https://periodent.com.ve/sitemap.xml

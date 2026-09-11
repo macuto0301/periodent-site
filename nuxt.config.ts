@@ -149,13 +149,7 @@ export default defineNuxtConfig({
         { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">' },
         { innerHTML: '<link rel="stylesheet" href="/icons.css">' }
       ],
-      script: [
-        {
-          async: true,
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8087822525455507',
-          crossorigin: 'anonymous'
-        }
-      ],
+      script: [],
       style: [
         // Critical above-the-fold CSS inlined to avoid an extra render-blocking request
         { innerHTML: criticalCss }

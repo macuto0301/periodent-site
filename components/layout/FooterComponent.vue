@@ -31,7 +31,7 @@
                         <p><i class="fas fa-map-marker-alt"></i> {{ clinicInfo.locations.chabasquen.address }} {{ clinicInfo.locations.chabasquen.city }}</p>
                     </div>
                     <p><i class="fas fa-phone"></i> <a :href="clinicInfo.phoneHref">{{ clinicInfo.phone }}</a></p>
-                    <p><i class="fas fa-envelope"></i> info@periodent.com.ve</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@periodent.com.ve">info@periodent.com.ve</a></p>
                     <NuxtLink to="/ubicacion" class="footer-btn">Ver ubicaciones</NuxtLink>
                 </div>
 

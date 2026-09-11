@@ -38,11 +38,12 @@
 
                     <div class="social-links">
                         <a href="https://www.facebook.com/especialidadesodontologica.periodent/" target="_blank"
-                            class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/od.daigremarsalas/" target="_blank" class="social-link"> <i
+                            rel="noopener noreferrer" aria-label="Facebook de Periodent" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/od.daigremarsalas/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram de Periodent" class="social-link"> <i
                                 class="fab fa-instagram"></i></a>
                         <a href="https://wa.me/584121553598?text=¡Hola!%20Estoy%20interesado%20en%20agendar%20una%20cita%20en%20su%20clínica%20dental."
-                            target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                            target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Periodent" class="social-link"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
 
@@ -100,8 +101,7 @@
 
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="terminos" v-model="formulario.terminos" required>
-                            <label for="terminos">Acepto la política de privacidad y el tratamiento de mis datos
-                                personales</label>
+                            <label for="terminos">Acepto la <NuxtLink to="/privacidad">política de privacidad</NuxtLink> y el tratamiento de mis datos personales para responder esta solicitud.</label>
                         </div>
 
                         <div class="contact-actions">

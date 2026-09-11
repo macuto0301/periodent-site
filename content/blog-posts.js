@@ -29,7 +29,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong>, nuestros especialistas están comprometidos con tu salud bucal integral. Agenda tu consulta y descubre cómo podemos ayudarte a mantener una sonrisa saludable.</p>
     `,
     image: '/img/importancia-salud-bucal.png',
-    author: 'Dr. Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-10',
     dateFormatted: '10 de Enero, 2026',
     category: 'Salud Dental',
@@ -82,7 +82,7 @@ export const blogPosts = [
       <p><strong>Agenda tu evaluación gratuita</strong> y descubre qué tipo de ortodoncia se adapta mejor a tus necesidades.</p>
     `,
     image: '/img/ortodoncia-invisible-vs-tradicional.png',
-    author: 'Dra. Ortodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-12',
     dateFormatted: '12 de Enero, 2026',
     category: 'Ortodoncia',
@@ -104,7 +104,7 @@ export const blogPosts = [
       <ul>
         <li><strong>Aspecto natural:</strong> Se ven y se sienten como tus propios dientes</li>
         <li><strong>Durabilidad:</strong> Con los cuidados adecuados, pueden durar toda la vida</li>
-        <li><strong>Funcionalidad completa:</strong> Recuperas el 100% de tu capacidad de masticación</li>
+        <li><strong>Funcionalidad:</strong> Puede ayudar a recuperar una masticación más cómoda, según la valoración y el tratamiento indicado</li>
         <li><strong>Protegen el hueso:</strong> Previenen la pérdida ósea que ocurre tras perder un diente</li>
         <li><strong>No afectan otros dientes:</strong> A diferencia de los puentes, no requieren tallar dientes adyacentes</li>
       </ul>
@@ -126,7 +126,7 @@ export const blogPosts = [
       <p><strong>Agenda tu consulta de evaluación</strong> y recupera tu sonrisa con la tecnología más avanzada.</p>
     `,
     image: '/img/implantes-dentales-todo-lo-que-debes-saber.png',
-    author: 'Dr. Implantología Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-14',
     dateFormatted: '14 de Enero, 2026',
     category: 'Implantología',
@@ -181,7 +181,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong>, nuestras limpiezas incluyen evaluación completa y asesoría personalizada. <strong>Agenda tu próxima limpieza</strong> y mantén tu sonrisa saludable.</p>
     `,
     image: '/img/limpieza-dental-profesional-cada-cuanto.png',
-    author: 'Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-16',
     dateFormatted: '16 de Enero, 2026',
     category: 'Prevención',
@@ -212,7 +212,7 @@ export const blogPosts = [
         <li><strong>Implantes dentales:</strong> Soluciones permanentes para dientes perdidos</li>
         <li><strong>Limpieza y profilaxis:</strong> Prevención de enfermedades bucales</li>
         <li><strong>Estética dental:</strong> Blanqueamiento, carillas y diseño de sonrisa</li>
-        <li><strong>Endodoncia:</strong> Tratamiento de conductos sin dolor</li>
+        <li><strong>Endodoncia:</strong> Tratamiento de conductos con técnicas de control del dolor</li>
         <li><strong>Odontopediatría:</strong> Atención especializada para los más pequeños</li>
       </ul>
       
@@ -222,7 +222,7 @@ export const blogPosts = [
       <h3>Agenda tu Cita en Periodent Chabasquén</h3>
       <p>¿Necesitas atención odontológica en Chabasquén? Nuestro equipo está listo para ayudarte. Ofrecemos:</p>
       <ul>
-        <li>Primera consulta de evaluación sin costo</li>
+        <li>Evaluación inicial; consulta las condiciones vigentes al solicitar tu cita</li>
         <li>Planes de tratamiento flexibles</li>
         <li>Facilidades de pago</li>
         <li>Atención de emergencias dentales</li>
@@ -234,7 +234,7 @@ export const blogPosts = [
       <p>En <strong>Periodent Chabasquén</strong>, tu sonrisa es nuestra prioridad. ¡Te esperamos!</p>
     `,
     image: '/img/clinica-dental-chabasquen-portuguesa.png',
-    author: 'Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-15',
     dateFormatted: '15 de Enero, 2026',
     category: 'Clínica',
@@ -301,7 +301,7 @@ export const blogPosts = [
       <p>Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén-Portuguesa.</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
-    author: 'Dra. Ortodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-13',
     dateFormatted: '13 de Enero, 2026',
     category: 'Ortodoncia',
@@ -346,7 +346,7 @@ export const blogPosts = [
       <ol>
         <li><strong>Evaluación inicial:</strong> Examen clínico y radiografías 3D</li>
         <li><strong>Planificación digital:</strong> Diseño del tratamiento con software especializado</li>
-        <li><strong>Cirugía de colocación:</strong> Procedimiento con anestesia local, sin dolor</li>
+        <li><strong>Cirugía de colocación:</strong> Procedimiento con anestesia local y seguimiento profesional</li>
         <li><strong>Osteointegración:</strong> Periodo de 3-6 meses donde el implante se fusiona con el hueso</li>
         <li><strong>Colocación de la corona:</strong> Se instala el diente definitivo</li>
       </ol>
@@ -387,7 +387,7 @@ export const blogPosts = [
       <p>¡Recupera tu sonrisa con los mejores implantólogos de Portuguesa!</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
-    author: 'Dr. Implantología Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-11',
     dateFormatted: '11 de Enero, 2026',
     category: 'Implantología',
@@ -418,7 +418,7 @@ export const blogPosts = [
         <li><strong>Ortodoncia:</strong> Brackets y sistemas invisibles para alineación dental</li>
         <li><strong>Implantes Dentales:</strong> Reemplazo permanente de dientes perdidos</li>
         <li><strong>Estética Dental:</strong> Blanqueamiento, carillas y diseño de sonrisa</li>
-        <li><strong>Endodoncia:</strong> Tratamientos de conductos sin dolor</li>
+        <li><strong>Endodoncia:</strong> Tratamientos de conductos con técnicas de control del dolor</li>
         <li><strong>Periodoncia:</strong> Tratamiento de encías y prevención de enfermedades</li>
         <li><strong>Odontopediatría:</strong> Atención especializada para niños</li>
       </ul>
@@ -463,7 +463,7 @@ export const blogPosts = [
     id: 9,
     slug: 'ortodoncia-biscucuy-brackets-invisalign',
     title: 'Ortodoncia en Biscucuy: Brackets, Invisalign y Tratamientos Modernos',
-    excerpt: 'Ortodoncia de calidad en Biscucuy con especialistas certificados. Ofrecemos brackets y sistemas invisibles con precios accesibles y resultados garantizados.',
+    excerpt: 'Información sobre ortodoncia en Biscucuy, brackets y alineadores, con orientación para comparar alternativas y solicitar una evaluación.',
     content: `
       <h2>Tratamientos Ortodónticos en Biscucuy, Portuguesa</h2>
       <p>¿Buscas corregir la alineación de tus dientes? En <strong>Periodent Biscucuy</strong> encontrarás la solución perfecta con nuestros especialistas en ortodoncia y tecnología de vanguardia.</p>
@@ -552,7 +552,7 @@ export const blogPosts = [
       <p>¡Consigue la sonrisa que siempre deseaste con ortodoncia en Biscucuy!</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
-    author: 'Dra. Ortodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-08',
     dateFormatted: '8 de Enero, 2026',
     category: 'Ortodoncia',
@@ -561,20 +561,20 @@ export const blogPosts = [
   {
     id: 10,
     slug: 'implantes-dentales-biscucuy-garantizados',
-    title: 'Implantes Dentales en Biscucuy: Solución Permanente y Garantizada',
-    excerpt: 'Los mejores implantes dentales en Biscucuy con garantía. Cirugía segura, resultados naturales y atención profesional en tu localidad.',
+    title: 'Implantes Dentales en Biscucuy: Solución Duradera y Personalizada',
+    excerpt: 'Información sobre implantes dentales en Biscucuy, evaluación del caso, planificación y cuidados posteriores.',
     content: `
-      <h2>Implantes Dentales Garantizados en Biscucuy</h2>
-      <p>Recupera tu sonrisa y confianza con los implantes dentales de <strong>Periodent Biscucuy</strong>. Ofrecemos la solución más permanente y natural para dientes perdidos con garantía total.</p>
+      <h2>Implantes Dentales en Biscucuy</h2>
+      <p>Los implantes dentales pueden ser una alternativa para reemplazar dientes perdidos. En <strong>Periodent Biscucuy</strong> evaluamos cada caso y explicamos las opciones, los beneficios, los riesgos y los cuidados necesarios.</p>
       
-      <h3>¿Qué hace que nuestros Implantes sean los Mejores en Biscucuy?</h3>
+      <h3>¿Cómo se evalúa un tratamiento de implantes?</h3>
       <ul>
-        <li><strong>Implantólogo certificado:</strong> Especialista con formación avanzada y experiencia probada</li>
-        <li><strong>Materiales premium:</strong> Implantes de titanio de grado médico con garantía internacional</li>
+        <li><strong>Valoración profesional:</strong> Revisión de la salud bucal y de las condiciones del paciente</li>
+        <li><strong>Materiales adecuados:</strong> Selección de componentes según el diagnóstico y el plan de tratamiento</li>
         <li><strong>Tecnología 3D:</strong> Tomografía digital para planificación precisa y segura</li>
         <li><strong>Cirugía mínimamente invasiva:</strong> Técnicas modernas con recuperación rápida</li>
         <li><strong>Coronas personalizadas:</strong> Hechas a medida para combinar perfectamente con tus dientes</li>
-        <li><strong>Garantía completa:</strong> Cobertura en implante, corona y procedimiento</li>
+        <li><strong>Seguimiento:</strong> Controles para revisar la evolución y resolver dudas sobre los cuidados</li>
       </ul>
       
       <h3>¿Cuánto Duran los Implantes Dentales?</h3>
@@ -601,7 +601,7 @@ export const blogPosts = [
         <li><strong>Evaluación clínica:</strong> Examen y radiografías 3D</li>
         <li><strong>Análisis de densidad ósea:</strong> Determinamos si hay suficiente hueso (si no, hacemos injerto)</li>
         <li><strong>Planificación digital:</strong> Diseño exacto del implante en computadora</li>
-        <li><strong>Colocación del implante:</strong> Cirugía bajo anestesia local, sin dolor</li>
+        <li><strong>Colocación del implante:</strong> Cirugía bajo anestesia local y con indicaciones postoperatorias</li>
         <li><strong>Cicatrización (3-6 meses):</strong> El implante se integra con el hueso (osteointegración)</li>
         <li><strong>Colocación de corona:</strong> Se instala el diente artificial permanente</li>
       </ol>
@@ -651,10 +651,10 @@ export const blogPosts = [
       Biscucuy, Portuguesa<br>
       <strong>Teléfono:</strong> +58 (412) 155 35 98</p>
       
-      <p>¡Recupera tu sonrisa con implantes dentales garantizados en Biscucuy!</p>
+      <p>Agenda una evaluación para conocer si los implantes dentales son adecuados para tu caso en Biscucuy.</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
-    author: 'Dr. Implantología Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-01-07',
     dateFormatted: '7 de Enero, 2026',
     category: 'Implantología',
@@ -707,7 +707,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong> combinamos arte y tecnología para diseñar sonrisas naturales y duraderas. ¡Agenda tu evaluación estética con nosotros!</p>
     `,
     image: '/img/dentista-trabajando.webp',
-    author: 'Dra. Estética Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-01',
     dateFormatted: '1 de Febrero, 2026',
     category: 'Estética Dental',
@@ -733,7 +733,7 @@ export const blogPosts = [
       <h3>Mitos Frecuentes sobre la Endodoncia</h3>
       
       <h4>Mito 1: "La endodoncia es un procedimiento doloroso"</h4>
-      <p><strong>Falso.</strong> Con el uso de anestésicos locales modernos y tecnología rotatoria, el tratamiento de conducto se realiza sin dolor. Lo que realmente causa dolor es la infección previa sin tratar.</p>
+      <p><strong>Falso.</strong> Los anestésicos locales y las técnicas actuales ayudan a controlar las molestias durante el tratamiento de conducto. La experiencia puede variar según la infección, la sensibilidad y la situación de cada paciente.</p>
       
       <h4>Mito 2: "Es mejor extraer el diente que hacer una endodoncia"</h4>
       <p><strong>Falso.</strong> Conservar la pieza dental natural siempre es la mejor opción. Mantener la raíz previene la reabsorción del hueso maxilar y el desplazamiento de los dientes vecinos.</p>
@@ -750,7 +750,7 @@ export const blogPosts = [
       <p>Si sientes dolor o molestias persistentes, en <strong>Periodent</strong> contamos con especialistas en endodoncia para eliminar el dolor y salvar tu pieza dental.</p>
     `,
     image: '/img/dentista-trabajando.webp',
-    author: 'Dr. Endodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-05',
     dateFormatted: '5 de Febrero, 2026',
     category: 'Endodoncia',
@@ -795,7 +795,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong> ofrecemos un ambiente cálido y sin miedos para tus hijos. ¡Haz de su salud dental una experiencia positiva!</p>
     `,
     image: '/img/importancia-salud-bucal.avif',
-    author: 'Dra. Odontopediatra Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-10',
     dateFormatted: '10 de Febrero, 2026',
     category: 'Odontopediatría',
@@ -828,10 +828,10 @@ export const blogPosts = [
       <h3>¿Cómo Manejar la Sensibilidad Temporal?</h3>
       <p>El blanqueamiento profesional puede causar una leve sensibilidad pasajera durante las primeras 24-48 horas. Se controla fácilmente con desensibilizantes e higiene suave.</p>
       
-      <p>No arriesgues la salud de tu esmalte. En <strong>Periodent</strong> evaluamos tu dentadura para realizar un blanqueamiento seguro y con resultados garantizados.</p>
+      <p>No arriesgues la salud de tu esmalte. En <strong>Periodent</strong> evaluamos tu dentadura para valorar si el blanqueamiento es adecuado y explicarte sus resultados esperables y cuidados.</p>
     `,
     image: '/img/mujer-cruzando-dedos.avif',
-    author: 'Dra. Estética Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-14',
     dateFormatted: '14 de Febrero, 2026',
     category: 'Estética Dental',
@@ -850,7 +850,7 @@ export const blogPosts = [
       <p>Es la inflamación superficial de la encía provocada por la acumulación de placa bacteriana y sarro en el borde gingival.</p>
       <ul>
         <li><strong>Síntomas:</strong> Encías rojas, hinchadas y sangrado al cepillarse o usar hilo dental.</li>
-        <li><strong>Tratamiento:</strong> Es 100% reversible mediante una limpieza profesional (profilaxis) y una corrección en las técnicas de cepillado diario.</li>
+        <li><strong>Tratamiento:</strong> En muchos casos mejora con una limpieza profesional y una corrección de las técnicas de cepillado, según la valoración clínica.</li>
       </ul>
       
       <h3>Periodontitis: La Etapa Avanzada e Irreversible</h3>
@@ -871,7 +871,7 @@ export const blogPosts = [
       <p>Si notas sangrado o inflamación en tus encías, consulta a los especialistas en periodoncia de <strong>Periodent</strong> para frenar el avance de la enfermedad.</p>
     `,
     image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
-    author: 'Dr. Periodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-18',
     dateFormatted: '18 de Febrero, 2026',
     category: 'Periodoncia',
@@ -911,7 +911,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong> confeccionamos placas miorrelajantes personalizadas de alta precisión para proteger tu salud bucal.</p>
     `,
     image: '/img/dentista-trabajando.webp',
-    author: 'Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-22',
     dateFormatted: '22 de Febrero, 2026',
     category: 'Odontología General',
@@ -950,7 +950,7 @@ export const blogPosts = [
       <p>¿Sientes molestias en la zona posterior de tus maxilares? Agenda una evaluación radiográfica en <strong>Periodent</strong>.</p>
     `,
     image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
-    author: 'Dr. Cirugía Oral Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-02-26',
     dateFormatted: '26 de Febrero, 2026',
     category: 'Cirugía Oral',
@@ -989,7 +989,7 @@ export const blogPosts = [
       <p>No te acostumbres a vivir con dolor al comer o beber. En <strong>Periodent</strong> identificamos la causa exacta de tu sensibilidad para ofrecerte la solución adecuada.</p>
     `,
     image: '/img/importancia-salud-bucal.avif',
-    author: 'Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-03-01',
     dateFormatted: '1 de Marzo, 2026',
     category: 'Prevención',
@@ -1026,7 +1026,7 @@ export const blogPosts = [
       <p>En <strong>Periodent</strong> abordamos la halitosis de manera confidencial y profesional para devolverte la seguridad en tu aliento.</p>
     `,
     image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
-    author: 'Equipo Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-03-03',
     dateFormatted: '3 de Marzo, 2026',
     category: 'Prevención',
@@ -1069,7 +1069,7 @@ export const blogPosts = [
       <p>Mantén tu sonrisa perfecta de por vida. En <strong>Periodent</strong> cuidamos cada etapa de tu tratamiento ortodóntico.</p>
     `,
     image: '/img/ortodoncia-invisible-vs-tradicional.avif',
-    author: 'Dra. Ortodoncia Periodent',
+    author: 'Equipo editorial de Periodent',
     date: '2026-03-05',
     dateFormatted: '5 de Marzo, 2026',
     category: 'Ortodoncia',
