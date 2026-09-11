@@ -300,7 +300,7 @@ export const blogPosts = [
       <p><strong>Agenda tu consulta de ortodoncia en Chabasquén:</strong> +58 (412) 155 35 98</p>
       <p>Avenida Sucre con Calle Cordoba y Arismendi, Edificio del Señor Chelopez, Planta baja, local 5, Chabasquén-Portuguesa.</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/ortodoncia-en-portuguesa-venezuela.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-01-13',
     dateFormatted: '13 de Enero, 2026',
@@ -386,7 +386,7 @@ export const blogPosts = [
       
       <p>¡Recupera tu sonrisa con los mejores implantólogos de Portuguesa!</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/implantes-dentales-portuguesa-chabasquen.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-01-11',
     dateFormatted: '11 de Enero, 2026',
@@ -452,7 +452,7 @@ export const blogPosts = [
       
       <p><strong>Agenda tu cita hoy mismo</strong> y comienza tu camino hacia una sonrisa saludable. ¡Te esperamos en Periodent Biscucuy!</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/clinica-dental-biscucuy-portuguesa.png',
     author: 'Equipo Periodent',
     date: '2026-01-09',
     dateFormatted: '9 de Enero, 2026',
@@ -551,7 +551,7 @@ export const blogPosts = [
       
       <p>¡Consigue la sonrisa que siempre deseaste con ortodoncia en Biscucuy!</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/ortodoncia-biscucuy-brackets-invisalign.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-01-08',
     dateFormatted: '8 de Enero, 2026',
@@ -653,7 +653,7 @@ export const blogPosts = [
       
       <p>Agenda una evaluación para conocer si los implantes dentales son adecuados para tu caso en Biscucuy.</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/implantes-dentales-biscucuy-garantizados.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-01-07',
     dateFormatted: '7 de Enero, 2026',
@@ -706,7 +706,7 @@ export const blogPosts = [
       
       <p>En <strong>Periodent</strong> combinamos arte y tecnología para diseñar sonrisas naturales y duraderas. ¡Agenda tu evaluación estética con nosotros!</p>
     `,
-    image: '/img/dentista-trabajando.webp',
+    image: '/img/diseno-de-sonrisa-carillas-dentales.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-01',
     dateFormatted: '1 de Febrero, 2026',
@@ -749,7 +749,7 @@ export const blogPosts = [
       
       <p>Si sientes dolor o molestias persistentes, en <strong>Periodent</strong> contamos con especialistas en endodoncia para eliminar el dolor y salvar tu pieza dental.</p>
     `,
-    image: '/img/dentista-trabajando.webp',
+    image: '/img/endodoncia-tratamiento-conducto-mitos-verdades.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-05',
     dateFormatted: '5 de Febrero, 2026',
@@ -794,7 +794,7 @@ export const blogPosts = [
       
       <p>En <strong>Periodent</strong> ofrecemos un ambiente cálido y sin miedos para tus hijos. ¡Haz de su salud dental una experiencia positiva!</p>
     `,
-    image: '/img/importancia-salud-bucal.avif',
+    image: '/img/odontopediatria-cuidado-dental-ninos.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-10',
     dateFormatted: '10 de Febrero, 2026',
@@ -830,7 +830,7 @@ export const blogPosts = [
       
       <p>No arriesgues la salud de tu esmalte. En <strong>Periodent</strong> evaluamos tu dentadura para valorar si el blanqueamiento es adecuado y explicarte sus resultados esperables y cuidados.</p>
     `,
-    image: '/img/mujer-cruzando-dedos.avif',
+    image: '/img/blanqueamiento-dental-profesional-vs-casero.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-14',
     dateFormatted: '14 de Febrero, 2026',
@@ -870,7 +870,7 @@ export const blogPosts = [
       
       <p>Si notas sangrado o inflamación en tus encías, consulta a los especialistas en periodoncia de <strong>Periodent</strong> para frenar el avance de la enfermedad.</p>
     `,
-    image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
+    image: '/img/periodontitis-gingivitis-sangrado-encias-tratamiento.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-18',
     dateFormatted: '18 de Febrero, 2026',
@@ -910,7 +910,7 @@ export const blogPosts = [
       
       <p>En <strong>Periodent</strong> confeccionamos placas miorrelajantes personalizadas de alta precisión para proteger tu salud bucal.</p>
     `,
-    image: '/img/dentista-trabajando.webp',
+    image: '/img/bruxismo-sintomas-placas-miorrelajantes.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-22',
     dateFormatted: '22 de Febrero, 2026',
@@ -949,7 +949,7 @@ export const blogPosts = [
       
       <p>¿Sientes molestias en la zona posterior de tus maxilares? Agenda una evaluación radiográfica en <strong>Periodent</strong>.</p>
     `,
-    image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
+    image: '/img/muelas-del-juicio-extraccion-terceros-molares.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-02-26',
     dateFormatted: '26 de Febrero, 2026',
@@ -988,7 +988,7 @@ export const blogPosts = [
       
       <p>No te acostumbres a vivir con dolor al comer o beber. En <strong>Periodent</strong> identificamos la causa exacta de tu sensibilidad para ofrecerte la solución adecuada.</p>
     `,
-    image: '/img/importancia-salud-bucal.avif',
+    image: '/img/sensibilidad-dental-causas-y-tratamiento.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-03-01',
     dateFormatted: '1 de Marzo, 2026',
@@ -1025,7 +1025,7 @@ export const blogPosts = [
 
       <p>En <strong>Periodent</strong> abordamos la halitosis de manera confidencial y profesional para devolverte la seguridad en tu aliento.</p>
     `,
-    image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
+    image: '/img/halitosis-mal-aliento-causas-soluciones.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-03-03',
     dateFormatted: '3 de Marzo, 2026',
@@ -1068,7 +1068,7 @@ export const blogPosts = [
       
       <p>Mantén tu sonrisa perfecta de por vida. En <strong>Periodent</strong> cuidamos cada etapa de tu tratamiento ortodóntico.</p>
     `,
-    image: '/img/ortodoncia-invisible-vs-tradicional.avif',
+    image: '/img/cuidados-post-ortodoncia-importancia-retenedores.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-03-05',
     dateFormatted: '5 de Marzo, 2026',
@@ -1106,7 +1106,7 @@ export const blogPosts = [
 
       <p>Este artículo es informativo. La recomendación de un tratamiento depende de la evaluación clínica individual.</p>
     `,
-    image: '/img/clinica-dental-biscucuy-portuguesa.avif',
+    image: '/img/como-elegir-dentista-en-biscucuy.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-09-08',
     dateFormatted: '8 de Septiembre, 2026',
@@ -1141,7 +1141,7 @@ export const blogPosts = [
 
       <p>La información de este artículo es educativa y no reemplaza una valoración profesional.</p>
     `,
-    image: '/img/clinica-dental-chabasquen-portuguesa.avif',
+    image: '/img/como-prepararse-para-cita-dental-en-chabasquen.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-09-07',
     dateFormatted: '7 de Septiembre, 2026',
@@ -1174,7 +1174,7 @@ export const blogPosts = [
 
       <p>Este contenido ofrece orientación general y no sustituye la valoración de un odontólogo ni la atención de emergencias.</p>
     `,
-    image: '/img/dentista-trabajando.webp',
+    image: '/img/que-hacer-ante-una-urgencia-dental-en-portuguesa.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-09-06',
     dateFormatted: '6 de Septiembre, 2026',
@@ -1210,7 +1210,7 @@ export const blogPosts = [
 
       <p>La recomendación final debe realizarla un profesional después de una evaluación clínica.</p>
     `,
-    image: '/img/limpieza-dental-profesional-cada-cuanto.avif',
+    image: '/img/cada-cuanto-hacer-limpieza-dental-en-portuguesa.png',
     author: 'Equipo editorial de Periodent',
     date: '2026-09-05',
     dateFormatted: '5 de Septiembre, 2026',
