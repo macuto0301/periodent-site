@@ -42,7 +42,7 @@ export default {
                     imagen: 'diente-corona-4.svg',
                     alt: 'Ícono de evaluación',
                     titulo: 'Valoramos tu opinión',
-                    descripcion: 'Y te garantizamos la calidad de nuestros servicios'
+                    descripcion: 'Y mejoramos continuamente nuestra atención'
                 }
             ]
         };

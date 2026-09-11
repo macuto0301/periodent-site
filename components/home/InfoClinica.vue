@@ -26,8 +26,8 @@
                 <p>¿Qué es importante para ti al elegir una clínica? Nuestros pacientes destacan la calidad de la
                     consulta inicial, la atención de los médicos y el cuidado en los procedimientos...</p>
                 <p>Mantenemos la atmósfera de la primera visita durante todo el tratamiento...</p>
-                <p>Combinando las garantías de la clínica, el profesionalismo de los doctores y la tecnología
-                    moderna, te damos la seguridad en el resultado...</p>
+                <p>Combinando la atención del equipo y las herramientas disponibles, te explicamos cada etapa para
+                    que puedas tomar decisiones informadas sobre tu tratamiento...</p>
 
                 <PrimaryButton to="/contacto" class="btn btn-primary">Solicitar cita</PrimaryButton>
             </div>

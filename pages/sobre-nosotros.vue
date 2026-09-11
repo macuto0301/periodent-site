@@ -8,23 +8,19 @@
       </div>
     </section>
 
-    <section class="about-content">
-      <div class="container about-grid">
-        <article>
+    <section class="about-introduction">
+      <div class="container introduction-grid">
+        <div>
           <h2>Quiénes somos</h2>
           <p>Somos una clínica odontológica con presencia en Biscucuy y Chabasquén, Portuguesa. Nuestro sitio reúne información sobre servicios dentales, ubicaciones, horarios y formas de contacto para que cada persona pueda solicitar una evaluación.</p>
           <p>La indicación de un tratamiento depende de la valoración presencial, los antecedentes del paciente y las condiciones clínicas de cada caso. La información publicada en este sitio es educativa y no reemplaza una consulta profesional.</p>
-        </article>
-
-        <aside class="about-contact">
-          <h2>Información de contacto</h2>
-          <p><strong>Teléfono:</strong> <a :href="clinicInfo.phoneHref">{{ clinicInfo.phone }}</a></p>
-          <p><strong>Correo:</strong> <a href="mailto:info@periodent.com.ve">info@periodent.com.ve</a></p>
-          <p><strong>Horario:</strong><br>{{ clinicInfo.hours.weekdays }}<br>{{ clinicInfo.hours.saturday }}<br>{{ clinicInfo.hours.sunday }}</p>
-          <NuxtLink to="/contacto" class="about-button">Solicitar información</NuxtLink>
-        </aside>
+        </div>
+        <NuxtImg src="/img/clinica-dental-biscucuy-portuguesa.avif" alt="Clínica dental Periodent en Biscucuy, Portuguesa" width="720" height="480" sizes="(max-width: 768px) 100vw, 50vw" loading="lazy" />
       </div>
     </section>
+
+    <InfoClinica />
+    <LazyNuestrosValores hydrate-on-visible />
 
     <section class="locations-band">
       <div class="container">
@@ -38,6 +34,8 @@
         </div>
       </div>
     </section>
+
+    <CtaFinal />
   </main>
 </template>
 
@@ -88,53 +86,39 @@ useHead({
   line-height: 1.7;
 }
 
-.about-content,
 .locations-band {
   padding: 70px 0;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.8fr);
-  gap: 48px;
+.about-introduction {
+  padding: 70px 0 20px;
+  background: var(--white);
 }
 
-.about-grid h2,
+.introduction-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.95fr);
+  gap: 52px;
+  align-items: center;
+}
+
+.introduction-grid h2,
 .locations-band h2 {
   margin-bottom: 20px;
   color: var(--accent-color);
 }
 
-.about-grid p,
+.introduction-grid p,
 .location-item p {
   line-height: 1.8;
 }
 
-.about-contact {
-  padding: 28px;
-  background: var(--white);
-  border-top: 4px solid var(--primary-color);
+.introduction-grid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   box-shadow: var(--box-shadow);
-}
-
-.about-contact p {
-  margin-bottom: 14px;
-  line-height: 1.6;
-}
-
-.about-contact a,
-.location-item a {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.about-button {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 12px 18px;
-  color: var(--white) !important;
-  background: var(--primary-color);
-  text-decoration: none;
 }
 
 .locations-band {
@@ -157,13 +141,18 @@ useHead({
   color: var(--accent-color);
 }
 
+.location-item a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
-  .about-grid,
+  .introduction-grid,
   .location-grid {
     grid-template-columns: 1fr;
   }
 
-  .about-content,
+  .about-introduction,
   .locations-band {
     padding: 48px 0;
   }
