@@ -153,6 +153,10 @@ const { public: { siteUrl } } = useRuntimeConfig()
 
 watchEffect(() => {
   if (post.value) {
+    const socialImage = post.value.image.startsWith('http')
+      ? post.value.image
+      : `${siteUrl}${post.value.image}`
+
     useHead({
       title: `${post.value.title} | Blog Periodent`,
       meta: [
@@ -160,10 +164,14 @@ watchEffect(() => {
         { property: 'og:title', content: post.value.title },
         { property: 'og:description', content: post.value.excerpt },
         { property: 'og:type', content: 'article' },
-        { property: 'og:image', content: post.value.image },
+        { property: 'og:url', content: `${siteUrl}/blog/${post.value.slug}` },
+        { property: 'og:image', content: socialImage },
+        { property: 'og:image:alt', content: post.value.title },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: post.value.title },
-        { name: 'twitter:description', content: post.value.excerpt }
+        { name: 'twitter:description', content: post.value.excerpt },
+        { name: 'twitter:image', content: socialImage },
+        { name: 'twitter:image:alt', content: post.value.title }
       ]
     })
   }

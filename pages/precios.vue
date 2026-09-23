@@ -13,18 +13,23 @@
 </template>
 
 <script setup>
+const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/precios-header.webp`
+
 useHead({
   title: 'Tratamientos dentales | Especialidades Odontológicas Periodent',
   meta: [
     { key: 'description', name: 'description', content: 'Conoce nuestros tratamientos odontológicos y solicita una orientación personalizada en Periodent.' },
     { key: 'og:title', property: 'og:title', content: 'Tratamientos dentales | Especialidades Odontológicas Periodent' },
     { key: 'og:description', property: 'og:description', content: 'Conoce nuestros tratamientos odontológicos y solicita una orientación personalizada en Periodent.' },
-    { key: 'og:image', property: 'og:image', content: '/img/mujer-cruzando-dedos.avif' },
+    { key: 'og:image', property: 'og:image', content: socialImage },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
     { key: 'twitter:title', name: 'twitter:title', content: 'Tratamientos dentales | Especialidades Odontológicas Periodent' },
     { key: 'twitter:description', name: 'twitter:description', content: 'Conoce nuestros tratamientos odontológicos y solicita una orientación personalizada en Periodent.' },
-    { key: 'twitter:image', name: 'twitter:image', content: '/img/mujer-cruzando-dedos.avif' }
+    { key: 'twitter:image', name: 'twitter:image', content: socialImage },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Tratamientos dentales en Periodent' },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Tratamientos dentales en Periodent' }
   ]
 })
 </script>

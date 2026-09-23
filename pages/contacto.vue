@@ -12,18 +12,23 @@
 </template>
 
 <script setup>
+const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/contacto-header.webp`
+
 useHead({
   title: 'Contacto | Especialidades Odontológicas Periodent',
   meta: [
     { key: 'description', name: 'description', content: 'Contáctanos para agendar tu cita dental o resolver tus dudas. Atención personalizada y rápida respuesta.' },
     { key: 'og:title', property: 'og:title', content: 'Contacto | Especialidades Odontológicas Periodent' },
     { key: 'og:description', property: 'og:description', content: 'Contáctanos para agendar tu cita dental o resolver tus dudas. Atención personalizada y rápida respuesta.' },
-    { key: 'og:image', property: 'og:image', content: '/img/mujer-cruzando-dedos.avif' },
+    { key: 'og:image', property: 'og:image', content: socialImage },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
     { key: 'twitter:title', name: 'twitter:title', content: 'Contacto | Especialidades Odontológicas Periodent' },
     { key: 'twitter:description', name: 'twitter:description', content: 'Contáctanos para agendar tu cita dental o resolver tus dudas. Atención personalizada y rápida respuesta.' },
-    { key: 'twitter:image', name: 'twitter:image', content: '/img/mujer-cruzando-dedos.avif' }
+    { key: 'twitter:image', name: 'twitter:image', content: socialImage },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Contacto de la clínica dental Periodent' },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Contacto de la clínica dental Periodent' }
   ]
 })
 </script>

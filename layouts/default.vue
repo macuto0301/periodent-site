@@ -14,6 +14,7 @@ import { clinicInfo } from '@/data/clinic-info'
 
 const route = useRoute()
 const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`
 // Self-referencing canonical (no trailing slash) so Google always finds a declared canonical per page.
 const canonicalUrl = computed(() => {
   const path = route.path === '/' ? '' : route.path.replace(/\/+$/, '')
@@ -25,7 +26,9 @@ useHead({
     { rel: 'canonical', href: canonicalUrl }
   ],
   meta: [
-    { key: 'og:url', property: 'og:url', content: canonicalUrl }
+    { key: 'og:url', property: 'og:url', content: canonicalUrl },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Clínica dental Periodent en Biscucuy, Portuguesa' },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Clínica dental Periodent en Biscucuy, Portuguesa' }
   ],
   script: [
     {

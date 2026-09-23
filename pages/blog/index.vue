@@ -20,6 +20,8 @@
 import { getAllPosts } from '~/content/blog-posts.js'
 
 const posts = getAllPosts()
+const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`
 
 useHead({
   title: 'Blog de Salud Dental | Periodent',
@@ -27,10 +29,14 @@ useHead({
     { key: 'description', name: 'description', content: 'Lee nuestros artículos sobre salud dental, ortodoncia, implantes y cuidado bucal. Consejos de expertos para mantener tu sonrisa perfecta.' },
     { key: 'og:title', property: 'og:title', content: 'Blog de Salud Dental | Periodent' },
     { key: 'og:description', property: 'og:description', content: 'Lee nuestros artículos sobre salud dental, ortodoncia, implantes y cuidado bucal. Consejos de expertos para mantener tu sonrisa perfecta.' },
+    { key: 'og:image', property: 'og:image', content: socialImage },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Clínica dental Periodent en Biscucuy, Portuguesa' },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
     { key: 'twitter:title', name: 'twitter:title', content: 'Blog de Salud Dental | Periodent' },
-    { key: 'twitter:description', name: 'twitter:description', content: 'Lee nuestros artículos sobre salud dental, ortodoncia, implantes y cuidado bucal.' }
+    { key: 'twitter:description', name: 'twitter:description', content: 'Lee nuestros artículos sobre salud dental, ortodoncia, implantes y cuidado bucal.' },
+    { key: 'twitter:image', name: 'twitter:image', content: socialImage },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Clínica dental Periodent en Biscucuy, Portuguesa' }
   ]
 })
 </script>

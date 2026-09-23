@@ -43,6 +43,8 @@
 import { clinicInfo } from '@/data/clinic-info'
 
 const locations = Object.values(clinicInfo.locations)
+const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`
 
 useHead({
   title: 'Sobre nosotros | Especialidades Odontológicas Periodent',
@@ -50,7 +52,17 @@ useHead({
     {
       name: 'description',
       content: 'Conoce Especialidades Odontológicas Periodent, sus ubicaciones en Biscucuy y Chabasquén, sus horarios y canales de contacto.'
-    }
+    },
+    { key: 'og:title', property: 'og:title', content: 'Sobre nosotros | Especialidades Odontológicas Periodent' },
+    { key: 'og:description', property: 'og:description', content: 'Conoce Especialidades Odontológicas Periodent, sus ubicaciones en Biscucuy y Chabasquén, sus horarios y canales de contacto.' },
+    { key: 'og:type', property: 'og:type', content: 'website' },
+    { key: 'og:image', property: 'og:image', content: socialImage },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Equipo y clínica dental Periodent' },
+    { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+    { key: 'twitter:title', name: 'twitter:title', content: 'Sobre nosotros | Especialidades Odontológicas Periodent' },
+    { key: 'twitter:description', name: 'twitter:description', content: 'Conoce Especialidades Odontológicas Periodent, sus ubicaciones en Biscucuy y Chabasquén, sus horarios y canales de contacto.' },
+    { key: 'twitter:image', name: 'twitter:image', content: socialImage },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Equipo y clínica dental Periodent' }
   ]
 })
 </script>

@@ -106,6 +106,8 @@ const lastUpdated = new Date().toLocaleDateString('es-ES', {
   month: 'long',
   year: 'numeric'
 })
+const { public: { siteUrl } } = useRuntimeConfig()
+const socialImage = `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`
 
 useHead({
   title: 'Política de Privacidad | Especialidades Odontológicas Periodent',
@@ -113,12 +115,14 @@ useHead({
     { key: 'description', name: 'description', content: 'Lee nuestra política de privacidad y conoce cómo protegemos tus datos personales en Especialidades Odontológicas Periodent.' },
     { key: 'og:title', property: 'og:title', content: 'Política de Privacidad | Especialidades Odontológicas Periodent' },
     { key: 'og:description', property: 'og:description', content: 'Lee nuestra política de privacidad y conoce cómo protegemos tus datos personales en Especialidades Odontológicas Periodent.' },
-    { key: 'og:image', property: 'og:image', content: '/img/mujer-cruzando-dedos.avif' },
+    { key: 'og:image', property: 'og:image', content: socialImage },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
     { key: 'twitter:title', name: 'twitter:title', content: 'Política de Privacidad | Especialidades Odontológicas Periodent' },
     { key: 'twitter:description', name: 'twitter:description', content: 'Lee nuestra política de privacidad y conoce cómo protegemos tus datos personales en Especialidades Odontológicas Periodent.' },
-    { key: 'twitter:image', name: 'twitter:image', content: '/img/mujer-cruzando-dedos.avif' }
+    { key: 'twitter:image', name: 'twitter:image', content: socialImage },
+    { key: 'og:image:alt', property: 'og:image:alt', content: 'Especialidades Odontológicas Periodent' },
+    { key: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Especialidades Odontológicas Periodent' }
   ]
 })
 </script>
