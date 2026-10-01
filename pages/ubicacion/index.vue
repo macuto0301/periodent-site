@@ -62,8 +62,11 @@
                 </div>
               </div>
 
+              <NuxtLink to="/ubicacion/biscucuy" class="btn-cita">
+                Ver sede de Biscucuy <i class="fas fa-arrow-right"></i>
+              </NuxtLink>
               <NuxtLink to="/contacto" class="btn-cita">
-                Agendar Cita en Biscucuy <i class="fas fa-arrow-right"></i>
+                Agendar Cita en Biscucuy <i class="fas fa-calendar-check"></i>
               </NuxtLink>
             </div>
           </div>

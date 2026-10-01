@@ -3,8 +3,8 @@
     <!-- Hero -->
     <section class="detail-hero">
       <div class="container">
-        <h1>Odontólogo en Biscucuy - Periodent</h1>
-        <p>Tu Odontólogo de Confianza en Biscucuy, Portuguesa - Especialidades Odontológicas</p>
+        <h1>Dentista en Biscucuy, Portuguesa</h1>
+        <p>Conoce la sede de Periodent, sus servicios, horario y cómo solicitar una cita dental en Biscucuy.</p>
       </div>
     </section>
 
@@ -18,11 +18,13 @@
             <div class="detail-address">
               <i class="fas fa-map-marker-alt"></i>
               <div>
-                <p><strong>Carrera 1 Bolívar, entre calle Paez y Negro Primero</strong></p>
+                <p><strong>Carrera 1 Bolívar, entre calle Páez y Negro Primero</strong></p>
                 <p>Al lado de la antigua Casa Blanca</p>
                 <p><strong>Biscucuy, Portuguesa, Venezuela</strong></p>
               </div>
             </div>
+
+            <a class="btn-book" href="https://www.google.com/maps/search/?api=1&amp;query=Periodent%2C%20Carrera%201%20Bol%C3%ADvar%2C%20Biscucuy%2C%20Portuguesa%2C%20Venezuela" target="_blank" rel="noopener noreferrer">Ver ubicación y cómo llegar en Google Maps</a>
 
             <div class="detail-contact">
               <h3>Contacto</h3>
@@ -66,32 +68,32 @@
               <div class="service-item">
                 <i class="fas fa-tooth"></i>
                 <h3>Odontología General</h3>
-                <p>Tratamiento de caries, limpiezas y extracciones</p>
+                <p>Consulta por evaluación, limpiezas y tratamientos según diagnóstico</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-crown"></i>
                 <h3>Ortodoncia</h3>
-                <p>Brackets, alineadores invisibles y tratamientos modernos</p>
+                <p>Consulta por evaluación y opciones de tratamiento ortodóntico</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-implants"></i>
                 <h3>Implantes Dentales</h3>
-                <p>Solución permanente con garantía internacional</p>
+                <p>Consulta si un implante dental es adecuado para tu caso</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-spa"></i>
                 <h3>Estética Dental</h3>
-                <p>Blanqueamiento, carillas y diseño de sonrisa</p>
+                <p>Consulta por opciones estéticas según evaluación odontológica</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-tooth"></i>
                 <h3>Endodoncia</h3>
-                <p>Tratamientos de conductos sin dolor</p>
+                <p>Evaluación y tratamiento de conductos cuando esté indicado</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-gum"></i>
                 <h3>Periodoncia</h3>
-                <p>Cuidado de encías y prevención</p>
+                <p>Evaluación de encías y orientación para su cuidado</p>
               </div>
             </div>
           </div>
@@ -102,17 +104,12 @@
     <!-- Área de Cobertura -->
     <section class="coverage-section">
       <div class="container">
-        <h2>Atendemos a Toda Portuguesa</h2>
-        <p>Aunque estamos ubicados en Biscucuy, recibimos pacientes de toda la región:</p>
+        <h2>Atención dental en Biscucuy y comunidades cercanas</h2>
+        <p>La sede de Periodent está en Biscucuy y también puede ser una opción para personas de Chabasquén y localidades cercanas. Consulta por teléfono la disponibilidad antes de trasladarte.</p>
         <div class="coverage-list">
           <div class="coverage-item">Biscucuy</div>
           <div class="coverage-item">Chabasquén</div>
-          <div class="coverage-item">Guanare</div>
-          <div class="coverage-item">Acarigua-Araure</div>
-          <div class="coverage-item">Ospino</div>
-          <div class="coverage-item">Guanarito</div>
-          <div class="coverage-item">San Carlos</div>
-          <div class="coverage-item">Aroa</div>
+          <div class="coverage-item">Comunidades cercanas</div>
         </div>
       </div>
     </section>
@@ -121,7 +118,7 @@
     <section class="cta-section">
       <div class="container">
         <h2>¿Necesitas Atención Dental en Biscucuy?</h2>
-        <p>Nuestro equipo de especialistas está listo para ayudarte. Primera consulta sin costo.</p>
+        <p>Llama para confirmar disponibilidad y solicitar una evaluación. La primera consulta es sin costo.</p>
         <NuxtLink to="/contacto" class="btn-cta-large">
           Agendar Consulta Ahora <i class="fas fa-phone"></i>
         </NuxtLink>
@@ -136,23 +133,23 @@ import { useHead, useRequestURL, useRuntimeConfig } from '#imports'
 const { public: { siteUrl } } = useRuntimeConfig()
 
 useHead({
-  title: 'Dentista en Biscucuy, Portuguesa | Periodent',
+  title: 'Dentista en Biscucuy, Portuguesa | Clínica Periodent',
   meta: [
-    { 
-      key: 'description', 
-      name: 'description', 
-      content: 'Dentista en Biscucuy, Portuguesa. Periodent ofrece odontología general, ortodoncia, implantes y estética dental. Agenda tu cita: +58 412 155 3598.' 
+    {
+      key: 'description',
+      name: 'description',
+      content: '¿Buscas dentista en Biscucuy? Conoce la sede de Periodent, su dirección, horario y opciones de atención odontológica. Llama para solicitar una cita.'
     },
     {
       key: 'keywords',
       name: 'keywords',
       content: 'odontólogo en biscucuy, dentista biscucuy, clínica dental biscucuy, ortodoncia biscucuy, implantes dentales biscucuy, periodent biscucuy, odontología portuguesa'
     },
-    { key: 'og:title', property: 'og:title', content: 'Odontólogo en Biscucuy | Periodent Clínica Dental' },
-    { key: 'og:description', property: 'og:description', content: 'Odontólogo en Biscucuy, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
+    { key: 'og:title', property: 'og:title', content: 'Dentista en Biscucuy, Portuguesa | Periodent' },
+    { key: 'og:description', property: 'og:description', content: 'Conoce la sede de Periodent en Biscucuy, su dirección, horario y opciones de atención dental. Llama para solicitar una cita.' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-    { key: 'twitter:title', name: 'twitter:title', content: 'Odontólogo en Biscucuy | Periodent' },
-    { key: 'twitter:description', name: 'twitter:description', content: 'Odontólogo en Biscucuy, Portuguesa. Especialistas en ortodoncia, implantes y servicios dentales completos.' },
+    { key: 'twitter:title', name: 'twitter:title', content: 'Dentista en Biscucuy, Portuguesa | Periodent' },
+    { key: 'twitter:description', name: 'twitter:description', content: 'Conoce la sede de Periodent en Biscucuy, su dirección, horario y opciones de atención dental.' },
   ],
   script: [
     {
@@ -161,17 +158,18 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Dentist",
         "name": "Periodent Biscucuy",
-        "image": `${siteUrl}/img/mujer-cruzando-dedos.avif`,
-        "description": "Clínica dental especializada en ortodoncia, implantes dentales y servicios odontológicos completos en Biscucuy, Portuguesa.",
+        "image": `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`,
+        "description": "Sede de Periodent en Biscucuy, Portuguesa. Consulta su dirección, horario y opciones de atención odontológica.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Carrera 1 Bolívar, entre calle Paez y Negro Primero",
+          "streetAddress": "Carrera 1 Bolívar, entre calle Páez y Negro Primero, al lado de la antigua Casa Blanca",
           "addressLocality": "Biscucuy",
           "addressRegion": "Portuguesa",
           "addressCountry": "VE"
         },
-        "telephone": "+58 (412) 155 35 98",
+        "telephone": "+584121553598",
         "url": `${siteUrl}/ubicacion/biscucuy`,
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Periodent%2C%20Carrera%201%20Bol%C3%ADvar%2C%20Biscucuy%2C%20Portuguesa%2C%20Venezuela",
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -186,18 +184,17 @@ useHead({
             "closes": "13:00"
           }
         ],
-        "priceRange": "$$",
         "areaServed": ["Biscucuy", "Chabasquén", "Portuguesa", "Venezuela"],
         "service": [
           {
             "@type": "Service",
             "name": "Ortodoncia",
-            "description": "Tratamientos de ortodoncia con brackets y alineadores invisibles"
+            "description": "Evaluación odontológica para conocer opciones de tratamiento ortodóntico"
           },
           {
             "@type": "Service",
             "name": "Implantes Dentales",
-            "description": "Colocación de implantes dentales con garantía"
+            "description": "Evaluación para determinar si un implante dental es adecuado para cada caso"
           },
           {
             "@type": "Service",
@@ -475,7 +472,7 @@ useHead({
   .detail-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .detail-hero h1 {
     font-size: 2rem;
   }
@@ -483,7 +480,7 @@ useHead({
   .detail-hero p {
     font-size: 1rem;
   }
-  
+
   .detail-info, .detail-services {
     padding: 25px 20px;
   }
@@ -503,7 +500,7 @@ useHead({
   .service-item {
     padding: 15px;
   }
-  
+
   .coverage-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;

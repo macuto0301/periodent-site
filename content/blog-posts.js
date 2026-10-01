@@ -698,7 +698,7 @@ export const blogPosts = [
       <p>Mantén el cepillado con pasta con flúor, limpia entre los dientes a diario y acude a los controles recomendados. Evita usar los dientes para morder objetos duros y consulta si notas que la mordida no se siente cómoda, o si una carilla se mueve o se rompe. El odontólogo puede indicarte cuidados específicos para tu situación.</p>
 
       <h2>¿Quieres evaluar opciones de diseño de sonrisa?</h2>
-      <p>En Periodent puedes <a href="/contacto">solicitar una evaluación odontológica</a> y conversar sobre tus objetivos y las alternativas disponibles en Biscucuy o Chabasquén. No todas las personas necesitan carillas; la recomendación depende de la valoración clínica.</p>
+      <p>En Periodent puedes <a href="/contacto">solicitar una evaluación odontológica</a> y conversar sobre tus objetivos y las alternativas disponibles en Biscucuy o Chabasquén. No todas las personas necesitan carillas; la recomendación depende de la valoración clínica. Si buscas atención presencial en Biscucuy, consulta la información de nuestra <a href="/ubicacion/biscucuy">sede dental en Biscucuy</a>.</p>
       <p><strong>Fuente para pacientes:</strong> consulta la guía sobre carillas dentales de la <a href="https://www.mouthhealthy.org/all-topics-a-z/veneers" target="_blank" rel="noopener noreferrer">American Dental Association</a>.</p>
     `,
     image: '/img/diseno-de-sonrisa-carillas-dentales.png',

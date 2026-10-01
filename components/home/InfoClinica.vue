@@ -30,6 +30,7 @@
                     que puedas tomar decisiones informadas sobre tu tratamiento...</p>
 
                 <PrimaryButton to="/contacto" class="btn btn-primary">Solicitar cita</PrimaryButton>
+                <NuxtLink to="/ubicacion/biscucuy" class="sede-link">Ver nuestra sede dental en Biscucuy</NuxtLink>
             </div>
         </div>
     </section>
@@ -96,6 +97,16 @@ export default {
 .info-text p {
     margin-bottom: 1rem;
     line-height: 1.6;
+}
+
+.sede-link {
+    align-self: center;
+    margin-top: 16px;
+    color: var(--accent-color);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .info-text .btn {
