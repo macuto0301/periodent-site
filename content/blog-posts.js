@@ -663,48 +663,43 @@ export const blogPosts = [
   {
     id: 11,
     slug: 'diseno-de-sonrisa-carillas-dentales',
-    title: 'Diseño de Sonrisa y Carillas Dentales: Guía Completa de Estética Dental',
-    excerpt: 'Descubre qué es el diseño de sonrisa, las diferencias entre carillas de porcelana y resina, y cómo transformar la estética de tus dientes con resultados naturales.',
+    title: 'Diseño de sonrisa en Portuguesa: carillas y opciones',
+    excerpt: 'Conoce qué es el diseño de sonrisa, qué opciones pueden incluir las carillas y qué preguntas hacer antes de decidir. Cada tratamiento parte de una evaluación odontológica.',
     content: `
-      <h2>Diseño de Sonrisa: Transforma tu Estética Dental</h2>
-      <p>El diseño de sonrisa es un conjunto de procedimientos odontológicos personalizados destinados a mejorar la apariencia estética de tus dientes, encías y labia, logrando una armonía perfecta con las facciones de tu rostro.</p>
-      
-      <h3>¿Qué son las Carillas Dentales?</h3>
-      <p>Las carillas dentales son láminas muy finas que se adhieren a la parte frontal de los dientes para corregir problemas de color, forma, tamaño o alineación leve.</p>
-      
-      <h3>Carillas de Porcelana vs. Carillas de Resina Compuesta</h3>
-      
-      <h4>Carillas de Porcelana (Cerámica)</h4>
-      <p>Son láminas personalizadas confeccionadas en laboratorio dental con materiales cerámicos de alta resistencia.</p>
+      <h2>¿Qué significa el diseño de sonrisa?</h2>
+      <p>El diseño de sonrisa es la planificación de cambios estéticos que buscan armonizar la sonrisa con la salud bucal y las características de cada persona. No es un tratamiento único: según la evaluación, puede contemplar alternativas como blanqueamiento, resina, ortodoncia o carillas. La opción adecuada depende del estado de los dientes y las encías, la mordida y tus objetivos.</p>
+
+      <h2>¿Qué son las carillas dentales?</h2>
+      <p>Son láminas delgadas de material dental que cubren la parte visible del diente. Pueden considerarse para modificar el aspecto de dientes manchados, astillados o con ciertas diferencias de forma o espacios. Una carilla cubre la superficie frontal; una corona cubre una mayor parte del diente y puede tener otra indicación.</p>
+
+      <h2>Carillas de resina y de cerámica</h2>
+      <p>Las dos opciones más conocidas son la resina compuesta y la cerámica. Sus indicaciones, preparación, costo y mantenimiento varían según el caso; esta comparación es general y no reemplaza una evaluación.</p>
+      <h3>Resina compuesta</h3>
+      <p>El odontólogo puede aplicar y modelar resina del color del diente directamente sobre la superficie. En algunos casos puede repararse con mayor facilidad, pero puede desgastarse, astillarse o cambiar de color con el tiempo. La técnica y el número de citas dependen del tratamiento planificado.</p>
+      <h3>Cerámica</h3>
+      <p>Las carillas de cerámica se fabrican a medida para ajustarse al diente. Pueden ofrecer un aspecto natural y suelen resistir las manchas mejor que la resina, pero también pueden dañarse o necesitar reparación o reemplazo. La planificación puede requerir varias etapas y participación de un laboratorio dental.</p>
+
+      <h2>¿Quién puede considerar carillas?</h2>
+      <p>Una consulta permite valorar si las carillas son apropiadas o si otra alternativa puede ser más conservadora. Antes de un tratamiento estético, el odontólogo debe revisar la salud de los dientes y las encías y atender problemas existentes, como caries o enfermedad de las encías. El bruxismo y la mordida también pueden influir en la decisión.</p>
+
+      <h2>¿Qué se conversa en la evaluación?</h2>
       <ul>
-        <li><strong>Ventajas:</strong> Apariencia extremadamente natural, no se manchan con café o tabaco, durabilidad de 15 a 20 años.</li>
-        <li><strong>Inconvenientes:</strong> Requieren preparación previa del diente y un mayor costo inicial.</li>
+        <li>Qué cambio deseas y qué resultado es realista para tu caso.</li>
+        <li>Qué alternativas existen y cuáles son sus ventajas, límites y costos.</li>
+        <li>Cuánta preparación del diente requiere cada opción.</li>
+        <li>Cuántas citas podrían hacer falta y cómo será el cuidado posterior.</li>
+        <li>Qué puede ocurrir si una carilla se astilla, se despega o necesita reemplazo.</li>
       </ul>
-      
-      <h4>Carillas de Resina (Composite)</h4>
-      <p>Se modelan directamente sobre el diente en una sola sesión clínica.</p>
-      <ul>
-        <li><strong>Ventajas:</strong> Proceso rápido en un solo día, más económico y completamente reversible o fácil de reparar.</li>
-        <li><strong>Inconvenientes:</strong> Pueden perder brillo con el tiempo y su durabilidad oscila entre 5 y 7 años.</li>
-      </ul>
-      
-      <h3>¿Quién es Candidato para un Diseño de Sonrisa?</h3>
-      <p>Es una excelente opción si deseas solucionar:</p>
-      <ul>
-        <li>Dientes manchados o amarillentos que no responden al blanqueamiento</li>
-        <li>Bordes dentales desgastados o con pequeñas fracturas</li>
-        <li>Espacios entre dientes (diastemas)</li>
-        <li>Dientes levemente desalineados o de forma irregular</li>
-      </ul>
-      
-      <h3>Paso a Paso del Tratamiento</h3>
-      <ol>
-        <li><strong>Evaluación y diagnóstico:</strong> Fotografías y escaneo digital de tu dentadura.</li>
-        <li><strong>Diseño digital y prueba (Mock-up):</strong> Te mostramos cómo quedará tu sonrisa antes de empezar.</li>
-        <li><strong>Preparación y colocación:</strong> Trabajo minucioso para adherir las carillas con precisión.</li>
-      </ol>
-      
-      <p>En <strong>Periodent</strong> combinamos arte y tecnología para diseñar sonrisas naturales y duraderas. ¡Agenda tu evaluación estética con nosotros!</p>
+
+      <h2>Preparación y duración: preguntas importantes</h2>
+      <p>La colocación de algunas carillas requiere retirar parte del esmalte. Ese cambio suele ser irreversible, por lo que conviene entenderlo antes de aceptar el procedimiento. Las opciones de preparación mínima no son adecuadas para todas las personas. La duración de una carilla tampoco es igual para todos: influyen el material, la mordida, los hábitos y el mantenimiento.</p>
+
+      <h2>Cuidados después del tratamiento</h2>
+      <p>Mantén el cepillado con pasta con flúor, limpia entre los dientes a diario y acude a los controles recomendados. Evita usar los dientes para morder objetos duros y consulta si notas que la mordida no se siente cómoda, o si una carilla se mueve o se rompe. El odontólogo puede indicarte cuidados específicos para tu situación.</p>
+
+      <h2>¿Quieres evaluar opciones de diseño de sonrisa?</h2>
+      <p>En Periodent puedes <a href="/contacto">solicitar una evaluación odontológica</a> y conversar sobre tus objetivos y las alternativas disponibles en Biscucuy o Chabasquén. No todas las personas necesitan carillas; la recomendación depende de la valoración clínica.</p>
+      <p><strong>Fuente para pacientes:</strong> consulta la guía sobre carillas dentales de la <a href="https://www.mouthhealthy.org/all-topics-a-z/veneers" target="_blank" rel="noopener noreferrer">American Dental Association</a>.</p>
     `,
     image: '/img/diseno-de-sonrisa-carillas-dentales.png',
     author: 'Equipo editorial de Periodent',

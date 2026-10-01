@@ -40,8 +40,8 @@ export const blogSeo = {
     description: 'Infórmate sobre evaluación, planificación y cuidados de implantes dentales en Biscucuy. Consulta con Periodent sobre tu caso.'
   },
   'diseno-de-sonrisa-carillas-dentales': {
-    title: 'Diseño de sonrisa y carillas dentales',
-    description: 'Conoce el diseño de sonrisa y las carillas dentales: diferencias, materiales y temas para conversar con tu odontólogo antes de decidir.'
+    title: 'Diseño de sonrisa y carillas en Portuguesa',
+    description: 'Diseño de sonrisa en Portuguesa: compara opciones como las carillas y conoce qué consultar antes de decidir. Solicita una evaluación en Periodent.'
   },
   'endodoncia-tratamiento-conducto-mitos-verdades': {
     title: 'Endodoncia: tratamiento de conducto y mitos',
