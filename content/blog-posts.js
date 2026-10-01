@@ -711,38 +711,36 @@ export const blogPosts = [
   {
     id: 12,
     slug: 'endodoncia-tratamiento-conducto-mitos-verdades',
-    title: 'Endodoncia o Tratamiento de Conducto: Mitos, Verdades y Cuándo se Necesita',
-    excerpt: 'Aprende todo sobre la endodoncia o tratamiento de conducto: desmentimos el mito del dolor, explicamos sus síntomas de alerta y cómo salva tu diente natural.',
+    title: 'Tratamiento de conducto: señales y evaluación odontológica',
+    excerpt: '¿Cuándo se necesita un tratamiento de conducto? Conoce señales, pasos del procedimiento y qué preguntar en una evaluación odontológica.',
     content: `
-      <h2>Endodoncia: La Técnica que Salva Dientes Infectados</h2>
-      <p>La endodoncia, popularmente conocida como tratamiento de conducto, es el procedimiento mediante el cual se elimina la pulpa dental infectada o inflamada (el tejido blando interno donde se encuentran los nervios y vasos sanguíneos) para desinfectar y sellar el diente.</p>
-      
-      <h3>Síntomas que Indican que Podrías Necesitar una Endodoncia</h3>
-      <ul>
-        <li><strong>Dolor agudo e intempestivo:</strong> Especialmente al masticar o al ejercer presión.</li>
-        <li><strong>Sensibilidad prolongada:</strong> Molestia persistente ante bebidas o alimentos fríos y calientes.</li>
-        <li><strong>Oscurecimiento del diente:</strong> Cambio de coloración debido a la necrosis pulpar.</li>
-        <li><strong>Inflamación o flemón en la encía:</strong> Presencia de un pequeño bulto o pus cerca de la raíz.</li>
-      </ul>
-      
-      <h3>Mitos Frecuentes sobre la Endodoncia</h3>
-      
-      <h4>Mito 1: "La endodoncia es un procedimiento doloroso"</h4>
-      <p><strong>Falso.</strong> Los anestésicos locales y las técnicas actuales ayudan a controlar las molestias durante el tratamiento de conducto. La experiencia puede variar según la infección, la sensibilidad y la situación de cada paciente.</p>
-      
-      <h4>Mito 2: "Es mejor extraer el diente que hacer una endodoncia"</h4>
-      <p><strong>Falso.</strong> Conservar la pieza dental natural siempre es la mejor opción. Mantener la raíz previene la reabsorción del hueso maxilar y el desplazamiento de los dientes vecinos.</p>
-      
-      <h3>Fases del Tratamiento de Conducto</h3>
+<h2>¿Qué es una endodoncia o tratamiento de conducto?</h2>
+      <p>La endodoncia trata el tejido blando que está dentro del diente, llamado pulpa, cuando se inflama o se infecta. El procedimiento consiste en retirar el tejido afectado, limpiar y desinfectar el espacio interno y sellarlo. Su objetivo puede ser conservar el diente, pero la indicación y el pronóstico dependen de la evaluación de cada caso.</p>
+
+      <h2>¿Cuándo conviene consultar?</h2>
+      <p>Dolor al masticar, sensibilidad persistente al frío o al calor, inflamación de las encías o un diente fracturado son motivos para solicitar una evaluación. Estos signos no confirman por sí solos que se necesite una endodoncia: el odontólogo revisará el diente y decidirá si requiere pruebas o imágenes.</p>
+
+      <h2>¿Duele el tratamiento de conducto?</h2>
+      <p>El dolor puede deberse a la inflamación o infección que afecta al diente. Durante la endodoncia se utiliza anestesia local para controlar las molestias, aunque la experiencia depende de la condición del diente y de cada paciente. Después puede haber sensibilidad temporal. Conversa con el odontólogo sobre tus síntomas y avísale si sientes molestias durante el procedimiento.</p>
+
+      <h2>¿Cómo se realiza?</h2>
       <ol>
-        <li>Anestesia local y aislamiento del diente con dique de goma.</li>
-        <li>Apertura de la corona e identificación de los conductos radiculares.</li>
-        <li>Limpieza, limado y desinfección profunda con irrigantes antibacterianos.</li>
-        <li>Obturación y sellado hermético con gutapercha.</li>
-        <li>Restauración final con empaste o corona para devolver la resistencia.</li>
+        <li>El odontólogo evalúa el diente y explica el plan indicado para el caso.</li>
+        <li>Con anestesia local, accede al interior del diente y retira la pulpa inflamada o infectada.</li>
+        <li>Limpia, desinfecta y sella el espacio de los conductos.</li>
+        <li>Planifica la restauración necesaria para proteger y recuperar la función del diente.</li>
       </ol>
-      
-      <p>Si sientes dolor o molestias persistentes, en <strong>Periodent</strong> contamos con especialistas en endodoncia para eliminar el dolor y salvar tu pieza dental.</p>
+      <p>El número de citas y la restauración final varían según el diente y la situación clínica. Sigue las indicaciones y asiste al control recomendado para completar el tratamiento.</p>
+
+      <h2>Qué esperar después</h2>
+      <p>Puede presentarse sensibilidad por un tiempo después del procedimiento. Mientras el diente no tenga la restauración final indicada, pregunta qué alimentos o actividades debes evitar. Contacta a tu odontólogo si el dolor empeora, aparece inflamación o tienes dudas durante la recuperación.</p>
+
+      <h2>¿Siempre se puede conservar el diente?</h2>
+      <p>No siempre. La posibilidad de restaurarlo depende de cuánto tejido sano queda y de otros hallazgos clínicos. En la consulta pueden explicarte las alternativas, sus beneficios y limitaciones. No decidas extraer o tratar un diente basándote solo en los síntomas o en información general.</p>
+
+      <h2>Evaluación de endodoncia en Portuguesa</h2>
+      <p>Si tienes dolor o sensibilidad persistente, <a href="/contacto">solicita una evaluación en Periodent</a>. También puedes conocer los <a href="/servicios">servicios odontológicos disponibles</a> y la orientación para <a href="/blog/que-hacer-ante-una-urgencia-dental-en-portuguesa">urgencias dentales</a>.</p>
+      <p><strong>Fuente para pacientes:</strong> revisa la información de la <a href="https://www.aae.org/patients/root-canal-treatment/what-is-a-root-canal/" target="_blank" rel="noopener noreferrer">American Association of Endodontists sobre el tratamiento de conducto</a>.</p>
     `,
     image: '/img/endodoncia-tratamiento-conducto-mitos-verdades.png',
     author: 'Equipo editorial de Periodent',
@@ -754,40 +752,35 @@ export const blogPosts = [
   {
     id: 13,
     slug: 'odontopediatria-cuidado-dental-ninos',
-    title: 'Odontopediatría: Cómo Cuidar la Salud Dental de los Niños desde la Infancia',
-    excerpt: 'Guía práctica de odontopediatría: cuándo realizar la primera visita al dentista, prevención de caries de biberón, sellantes y hábitos de higiene infantil.',
+    title: 'Odontopediatría infantil: guía para familias en Portuguesa',
+    excerpt: 'Primera visita, cepillado con flúor y prevención de caries infantil: una guía de odontopediatría para familias de Portuguesa.',
     content: `
-      <h2>Cuidando las Sonrisas de los Más Pequeños</h2>
-      <p>La odontopediatría es la especialidad dental encargada de la salud bucodental de bebés, niños y adolescentes. Crear hábitos saludables desde los primeros años es esencial para garantizar dientes sanos en la etapa adulta.</p>
-      
-      <h3>¿Por Qué son Importantes los Dientes de Leche?</h3>
-      <p>A pesar de ser temporales, los dientes deciduos o "de leche" cumplen funciones fundamentales:</p>
+<h2>¿Qué es la odontopediatría?</h2>
+      <p>La odontopediatría es la atención de la salud bucal de bebés, niños y adolescentes. Las consultas ayudan a vigilar el desarrollo de la boca, prevenir problemas y orientar a las familias con cuidados adecuados para cada etapa.</p>
+
+      <h2>¿Cuándo debe ir un niño al dentista por primera vez?</h2>
+      <p>La American Dental Association recomienda programar la primera visita cuando aparece el primer diente y, como máximo, al cumplir un año. En esa cita, la familia puede conversar sobre higiene, alimentación y prevención. Preparar al niño con explicaciones sencillas y positivas puede ayudarle a familiarizarse con la consulta.</p>
+
+      <h2>Cómo cuidar los dientes en casa</h2>
       <ul>
-        <li>Guardan el espacio para la erupción adecuada de los dientes definitivos.</li>
-        <li>Permiten una correcta masticación y nutrición del niño.</li>
-        <li>Facilitan el desarrollo del lenguaje y la articulación de las palabras.</li>
+        <li>Antes de que salgan los dientes, limpia suavemente las encías con una gasa limpia y húmeda.</li>
+        <li>Cuando aparezca el primer diente, cepíllalo con un cepillo infantil y pasta con flúor. Para menores de 3 años, la ADA indica una cantidad del tamaño de un grano de arroz; de 3 a 6 años, una cantidad similar a un guisante. Un adulto debe ayudar y supervisar el cepillado.</li>
+        <li>Evita que el bebé se duerma con el biberón en la boca y limita las bebidas azucaradas, especialmente entre comidas.</li>
+        <li>Pregunta al odontólogo qué rutina de higiene y frecuencia de controles corresponden según la edad y el riesgo de caries del niño.</li>
       </ul>
-      
-      <h3>¿Cuándo se Debe Realizar la Primera Visita al Dentista?</h3>
-      <p>La recomendación profesional es realizar la primera revisión cuando brote el primer diente o al cumplir el primer año de edad. Esto permite evaluar el desarrollo maxilofacial y orientar a los padres en prevención.</p>
-      
-      <h3>Prevención de la Caries del Biberón</h3>
-      <p>Ocurre por el contacto prolongado de los dientes del bebé con líquidos azucarados (leche, jugos o fórmulas). Para prevenirla:</p>
-      <ul>
-        <li>Evita acostar al bebé con el biberón en la boca.</li>
-        <li>Limpia sus encías con una gasa húmeda antes de que broten los dientes.</li>
-        <li>Inicia el cepillado con pasta fluorada adaptada a su edad tan pronto aparezca el primer diente.</li>
-      </ul>
-      
-      <h3>Tratamientos Preventivos en Odontopediatría</h3>
-      
-      <h4>Sellantes de Fosas y Fisuras</h4>
-      <p>Son capas protectoras delgadas que se aplican en las molares para evitar que la comida y las bacterias queden atrapadas en las grietas naturales del diente.</p>
-      
-      <h4>Fluorización Profesional</h4>
-      <p>Aplicación de barniz de flúor para fortalecer el esmalte y hacerlo más resistente a los ácidos de las bacterias.</p>
-      
-      <p>En <strong>Periodent</strong> ofrecemos un ambiente cálido y sin miedos para tus hijos. ¡Haz de su salud dental una experiencia positiva!</p>
+
+      <h2>Dientes de leche: por qué cuidarlos</h2>
+      <p>Los dientes temporales sirven para masticar y hablar, y participan en el desarrollo de la dentición. También pueden tener caries y causar molestias, por eso conviene consultar si observas manchas, dolor o cambios en las encías. La evaluación profesional determina si hace falta algún tratamiento.</p>
+
+      <h2>Sellantes y otras medidas preventivas</h2>
+      <p>Los sellantes cubren surcos de las muelas donde puede acumularse placa. No son necesarios para todos los niños; el odontólogo valora las piezas, el riesgo de caries y otras medidas de prevención, como el uso de flúor. Pregunta qué beneficios y cuidados tendría cada alternativa en el caso de tu hijo.</p>
+
+      <h2>Cómo preparar la consulta</h2>
+      <p>Anota tus preguntas, los medicamentos o antecedentes importantes y cualquier cambio que hayas notado. Si el niño siente temor, cuéntaselo al equipo al solicitar la cita para que puedan orientarte sobre cómo prepararlo.</p>
+
+      <h2>Atención dental infantil en Portuguesa</h2>
+      <p>Si buscas orientación para la salud bucal de un niño, <a href="/contacto">contacta a Periodent para consultar disponibilidad y pedir una evaluación</a>. También puedes ver la información de nuestras sedes en <a href="/ubicacion/biscucuy">Biscucuy</a> y <a href="/ubicacion/chabasquen">Chabasquén</a>.</p>
+      <p><strong>Fuentes para familias:</strong> consulta la guía de la <a href="https://www.mouthhealthy.org/life-stages/babies-and-kids/first-dental-visit-for-baby" target="_blank" rel="noopener noreferrer">American Dental Association sobre la primera visita</a> y sus <a href="https://www.mouthhealthy.org/life-stages/babies-and-kids/dental-health-concerns-infants-and-babies" target="_blank" rel="noopener noreferrer">recomendaciones para bebés y niños</a>.</p>
     `,
     image: '/img/odontopediatria-cuidado-dental-ninos.png',
     author: 'Equipo editorial de Periodent',

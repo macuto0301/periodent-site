@@ -44,12 +44,12 @@ export const blogSeo = {
     description: 'Diseño de sonrisa en Portuguesa: compara opciones como las carillas y conoce qué consultar antes de decidir. Solicita una evaluación en Periodent.'
   },
   'endodoncia-tratamiento-conducto-mitos-verdades': {
-    title: 'Endodoncia: tratamiento de conducto y mitos',
-    description: 'Aprende qué es una endodoncia o tratamiento de conducto, cuándo se evalúa y qué dudas conversar con tu odontólogo.'
+    title: 'Endodoncia: tratamiento de conducto',
+    description: '¿Cuándo se necesita un tratamiento de conducto? Conoce las señales, el procedimiento y qué preguntar en una evaluación odontológica en Periodent.'
   },
   'odontopediatria-cuidado-dental-ninos': {
-    title: 'Odontopediatría: salud dental infantil',
-    description: 'Guía de odontopediatría para familias: primera visita, prevención y hábitos de higiene dental infantil. Consulta con Periodent sobre la atención de niños.'
+    title: 'Odontopediatría infantil en Portuguesa',
+    description: 'Guía para familias: primera visita, cepillado con flúor y prevención de caries infantil. Consulta en Periodent, Biscucuy y Chabasquén.'
   },
   'blanqueamiento-dental-profesional-vs-casero': {
     title: 'Blanqueamiento dental: opciones y cuidados',
