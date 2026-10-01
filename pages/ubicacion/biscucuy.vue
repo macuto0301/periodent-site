@@ -65,32 +65,32 @@
             <div class="services-list">
               <div class="service-item">
                 <i class="fas fa-tooth"></i>
-                <h4>Odontología General</h4>
+                <h3>Odontología General</h3>
                 <p>Tratamiento de caries, limpiezas y extracciones</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-crown"></i>
-                <h4>Ortodoncia</h4>
+                <h3>Ortodoncia</h3>
                 <p>Brackets, alineadores invisibles y tratamientos modernos</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-implants"></i>
-                <h4>Implantes Dentales</h4>
+                <h3>Implantes Dentales</h3>
                 <p>Solución permanente con garantía internacional</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-spa"></i>
-                <h4>Estética Dental</h4>
+                <h3>Estética Dental</h3>
                 <p>Blanqueamiento, carillas y diseño de sonrisa</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-tooth"></i>
-                <h4>Endodoncia</h4>
+                <h3>Endodoncia</h3>
                 <p>Tratamientos de conductos sin dolor</p>
               </div>
               <div class="service-item">
                 <i class="fas fa-gum"></i>
-                <h4>Periodoncia</h4>
+                <h3>Periodoncia</h3>
                 <p>Cuidado de encías y prevención</p>
               </div>
             </div>

@@ -15,15 +15,15 @@ const { public: { siteUrl } } = useRuntimeConfig()
 const socialImage = `${siteUrl}/img/servicios-header.webp`
 
 useHead({
-  title: 'Servicios Dentales | Especialidades Odontológicas Periodent',
+  title: 'Servicios dentales en Portuguesa | Periodent',
   meta: [
     { key: 'description', name: 'description', content: 'Conoce todos nuestros servicios odontológicos: ortodoncia, implantes, limpieza dental y más. Atención profesional y personalizada.' },
-    { key: 'og:title', property: 'og:title', content: 'Servicios Dentales | Especialidades Odontológicas Periodent' },
+    { key: 'og:title', property: 'og:title', content: 'Servicios dentales en Portuguesa | Periodent' },
     { key: 'og:description', property: 'og:description', content: 'Conoce todos nuestros servicios odontológicos: ortodoncia, implantes, limpieza dental y más. Atención profesional y personalizada.' },
     { key: 'og:image', property: 'og:image', content: socialImage },
     { key: 'og:type', property: 'og:type', content: 'website' },
     { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-    { key: 'twitter:title', name: 'twitter:title', content: 'Servicios Dentales | Especialidades Odontológicas Periodent' },
+    { key: 'twitter:title', name: 'twitter:title', content: 'Servicios dentales en Portuguesa | Periodent' },
     { key: 'twitter:description', name: 'twitter:description', content: 'Conoce todos nuestros servicios odontológicos: ortodoncia, implantes, limpieza dental y más. Atención profesional y personalizada.' },
     { key: 'twitter:image', name: 'twitter:image', content: socialImage },
     { key: 'og:image:alt', property: 'og:image:alt', content: 'Servicios odontológicos de Periodent' },

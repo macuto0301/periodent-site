@@ -34,7 +34,7 @@
         </div>
 
         <div class="faq-cta">
-          <h3>¿No encontraste tu respuesta?</h3>
+          <h2>¿No encontraste tu respuesta?</h2>
           <p>Contáctanos y con gusto resolveremos tus dudas</p>
           <NuxtLink to="/contacto" class="btn-cta">
             Contactar <i class="fas fa-arrow-right"></i>
@@ -119,11 +119,11 @@ function toggleFaq(index) {
 
 // SEO
 useHead({
-  title: 'Preguntas Frecuentes | Periodent - Clínica Dental en Biscucuy y Chabasquén',
+  title: 'Preguntas frecuentes dentales | Periodent',
   meta: [
     { 
       name: 'description', 
-      content: 'Respuestas a las preguntas más frecuentes sobre servicios dentales en Periodent. Costos, citas, tratamientos y más información sobre nuestras clínicas en Biscucuy y Chabasquén, Portuguesa.'
+      content: 'Resuelve dudas sobre citas, tratamientos dentales y nuestras clínicas en Biscucuy y Chabasquén, Portuguesa. Consulta con Periodent para recibir orientación.'
     },
     { property: 'og:title', content: 'Preguntas Frecuentes | Periodent' },
     { property: 'og:description', content: 'Encuentra respuestas a tus dudas sobre servicios dentales, costos, citas y tratamientos en Periodent.' },
@@ -268,7 +268,7 @@ useHead({
   margin: 0 auto;
 }
 
-.faq-cta h3 {
+.faq-cta h2 {
   font-size: 2rem;
   color: var(--accent-color);
   margin-bottom: 15px;
@@ -341,7 +341,7 @@ useHead({
     padding: 30px 20px;
   }
 
-  .faq-cta h3 {
+  .faq-cta h2 {
     font-size: 1.5rem;
   }
 

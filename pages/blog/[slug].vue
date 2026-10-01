@@ -97,6 +97,7 @@
 
 import { computed, ref, onMounted, watch } from 'vue'
 import { getPostBySlug, getRelatedPosts } from '~/content/blog-posts.js'
+import { blogSeo } from '~/content/blog-seo.js'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug)
@@ -156,20 +157,23 @@ watchEffect(() => {
     const socialImage = post.value.image.startsWith('http')
       ? post.value.image
       : `${siteUrl}${post.value.image}`
+    const seo = blogSeo[post.value.slug]
+    const seoTitle = seo?.title || post.value.title
+    const seoDescription = seo?.description || post.value.excerpt
 
     useHead({
-      title: `${post.value.title} | Blog Periodent`,
+      title: `${seoTitle} | Periodent`,
       meta: [
-        { name: 'description', content: post.value.excerpt },
-        { property: 'og:title', content: post.value.title },
-        { property: 'og:description', content: post.value.excerpt },
+        { key: 'description', name: 'description', content: seoDescription },
+        { property: 'og:title', content: seoTitle },
+        { property: 'og:description', content: seoDescription },
         { property: 'og:type', content: 'article' },
         { property: 'og:url', content: `${siteUrl}/blog/${post.value.slug}` },
         { property: 'og:image', content: socialImage },
         { property: 'og:image:alt', content: post.value.title },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: post.value.title },
-        { name: 'twitter:description', content: post.value.excerpt },
+        { name: 'twitter:title', content: seoTitle },
+        { name: 'twitter:description', content: seoDescription },
         { name: 'twitter:image', content: socialImage },
         { name: 'twitter:image:alt', content: post.value.title }
       ]

@@ -8,7 +8,7 @@
                     <div class="service-icon">
                         <i :class="service.icon"></i>
                     </div>
-                    <h3>{{ service.title }}</h3>
+                    <h2>{{ service.title }}</h2>
                     <p>{{ service.description }}</p>
                     <PrimaryButton to="/contacto" class="service-cta">Consultar tratamiento</PrimaryButton>
                 </div>
@@ -102,7 +102,7 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-h3 {
+h2 {
     color: #333;
     margin-bottom: 1rem;
     font-size: 1.5rem;

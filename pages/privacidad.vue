@@ -110,7 +110,7 @@ const { public: { siteUrl } } = useRuntimeConfig()
 const socialImage = `${siteUrl}/img/clinica-dental-biscucuy-portuguesa.avif`
 
 useHead({
-  title: 'Política de Privacidad | Especialidades Odontológicas Periodent',
+  title: 'Política de privacidad | Periodent',
   meta: [
     { key: 'description', name: 'description', content: 'Lee nuestra política de privacidad y conoce cómo protegemos tus datos personales en Especialidades Odontológicas Periodent.' },
     { key: 'og:title', property: 'og:title', content: 'Política de Privacidad | Especialidades Odontológicas Periodent' },

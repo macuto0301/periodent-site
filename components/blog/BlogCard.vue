@@ -27,7 +27,7 @@
             <i class="far fa-user"></i> {{ post.author }}
           </span>
         </div>
-        <h3 class="blog-card-title">{{ post.title }}</h3>
+        <h2 class="blog-card-title">{{ post.title }}</h2>
         <p class="blog-card-excerpt">{{ post.excerpt }}</p>
         <span class="blog-card-read-more">
           Leer más <i class="fas fa-arrow-right"></i>

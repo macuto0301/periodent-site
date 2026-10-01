@@ -3,7 +3,7 @@
 
         <nav>
             <div class="logo">
-                <NuxtLink to="/">
+                <NuxtLink to="/" aria-label="Inicio: Periodent, clínica dental en Biscucuy y Chabasquén">
                     <NuxtImg src="/img/logo-periodent.webp"
                               alt="Periodent - Clínica Dental en Biscucuy y Chabasquén, Portuguesa"
                               format="webp"
