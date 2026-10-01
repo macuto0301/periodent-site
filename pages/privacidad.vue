@@ -93,7 +93,7 @@
             Carrera 1 Bolivar, entre calle Paez y Negro Primero<br>
             Biscucuy, Portuguesa, Venezuela<br>
             Teléfono: +58 (412) 155 35 98<br>
-            Correo electrónico: info@periodent.com.ve</p>
+            Formulario de contacto: <NuxtLink to="/contacto">periodent.com.ve/contacto</NuxtLink></p>
         </div>
       </div>
     </section>

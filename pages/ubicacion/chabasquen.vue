@@ -33,7 +33,7 @@
               </div>
               <div class="contact-item">
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:info@periodent.com.ve">info@periodent.com.ve</a>
+                <NuxtLink to="/contacto" aria-label="Escribir a Periodent">Enviar un mensaje</NuxtLink>
               </div>
             </div>
 
@@ -142,7 +142,7 @@ useHead({
     { 
       key: 'description', 
       name: 'description', 
-      content: 'Dentista en Chabasquén, Portuguesa, Venezuela. Periodent ofrece odontología general, ortodoncia, implantes y estética dental. Av. Sucre con calle Cordoba. Tel: +58 (412) 155 35 98.'
+      content: 'Dentista en Chabasquén, Portuguesa. Periodent ofrece odontología general, ortodoncia, implantes y estética dental. Agenda tu cita: +58 412 155 3598.'
     },
     {
       key: 'keywords',
