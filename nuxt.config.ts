@@ -132,6 +132,7 @@ export default defineNuxtConfig({
         { name: 'msapplication-TileColor', content: '#EC407A' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'robots', content: 'index, follow' },
+        { name: 'google-adsense-account', content: 'ca-pub-8087822525455507' },
         { name: 'description', content: 'Especialidades Odontológicas Periodent: ortodoncia, implantes y limpieza dental.' },
         { property: 'og:site_name', content: 'Especialidades Odontológicas Periodent' },
         { property: 'og:locale', content: 'es_ES' },
